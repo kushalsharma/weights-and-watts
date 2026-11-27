@@ -1,0 +1,10 @@
+# What a run makes: ComfyUI, its Python, the model files and the pictures stay out of the repository.
+ComfyUI/
+runs/
+*.safetensors
+*.png
+*.jpg
+*.webp
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

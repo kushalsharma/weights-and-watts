@@ -1,0 +1,585 @@
+{
+ "about": "Every prompt of episode 1's tests, as each model was sent it. Steps: 6 for MiniMax H3-Image, 8 for P-H3-Image. The first take uses the seed below; later takes draw a new seed. Pictures: 'face' and 'body' are your own pictures; any other name is the first take of that prompt, by the same model unless it says @model.",
+ "prompts": {
+  "a-at-work": {
+   "test": "A",
+   "title": "Her in five scenes: at work, low bun and amber jacket",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 42,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> and <Picture 2> is <Subject 1>. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. The target image is a photograph of <Subject 1> at work at night, in a square 1:1 image, showing her once, from head to knee. <Subject 1> is preserved: her face, her dark eyes, her freckles, her red lips, her skin and her build are exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is tied in a low bun at the nape of her neck, with a few loose strands around her face. She wears an amber rain jacket, unzipped, over a charcoal crew-neck jumper and dark trousers, with large matte black studio headphones resting around her neck. She stands at a desk of audio monitors showing sound waves, one hand on the desk, turned a little towards the viewer. The room is dark blue, lit by the cyan glow of the screens. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1> and <Picture 2> at work at night, in a square image, showing her once, from head to knee. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her freckles, her red lips, her skin and her build exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is tied in a low bun at the nape of her neck, with a few loose strands around her face. She wears an amber rain jacket, unzipped, over a charcoal crew-neck jumper and dark trousers, with large matte black studio headphones resting around her neck. She stands at a desk of audio monitors showing sound waves, one hand on the desk, turned a little towards the viewer. The room is dark blue, lit by the cyan glow of the screens. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "a-rainy-street": {
+   "test": "A",
+   "title": "Her in five scenes: rainy street, ponytail and leather jacket",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 42,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> and <Picture 2> is <Subject 1>. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. The target image is a photograph of <Subject 1> on a city street at night in the rain, in a square 1:1 image, showing her once, from head to knee. <Subject 1> is preserved: her face, her dark eyes, her freckles, her red lips, her skin and her build are exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is pulled up in a high ponytail that swings behind her. She wears a black leather jacket over a white T-shirt, dark blue jeans and black ankle boots. She walks towards the viewer with her hands in her jacket pockets. Behind her the wet street reflects pink and blue shop lights, with no readable signs. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1> and <Picture 2> on a city street at night in the rain, in a square image, showing her once, from head to knee. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her freckles, her red lips, her skin and her build exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is pulled up in a high ponytail that swings behind her. She wears a black leather jacket over a white T-shirt, dark blue jeans and black ankle boots. She walks towards the viewer with her hands in her jacket pockets. Behind her the wet street reflects pink and blue shop lights, with no readable signs. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "a-gallery-evening": {
+   "test": "A",
+   "title": "Her in five scenes: gallery evening, chignon and black dress",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 42,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> and <Picture 2> is <Subject 1>. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. The target image is a photograph of <Subject 1> at an evening reception in an art gallery, in a square 1:1 image, showing her once, from head to knee. <Subject 1> is preserved: her face, her dark eyes, her freckles, her red lips, her skin and her build are exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is pinned up in a smooth, elegant chignon at the back of her head, with one loose strand beside her face. She wears a long black evening dress with wide shoulder straps and a square neckline, and small gold stud earrings. She holds a slim glass in one hand and looks over her shoulder at the viewer. Behind her are white gallery walls with large abstract paintings in warm colours and soft spotlights. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1> and <Picture 2> at an evening reception in an art gallery, in a square image, showing her once, from head to knee. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her freckles, her red lips, her skin and her build exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is pinned up in a smooth, elegant chignon at the back of her head, with one loose strand beside her face. She wears a long black evening dress with wide shoulder straps and a square neckline, and small gold stud earrings. She holds a slim glass in one hand and looks over her shoulder at the viewer. Behind her are white gallery walls with large abstract paintings in warm colours and soft spotlights. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "a-at-home": {
+   "test": "A",
+   "title": "Her in five scenes: at home, wavy bob and cream jumper",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 42,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> and <Picture 2> is <Subject 1>. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. The target image is a photograph of <Subject 1> at home on a quiet morning, in a square 1:1 image, showing her once, from head to knee. <Subject 1> is preserved: her face, her dark eyes, her freckles, her red lips, her skin and her build are exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is cut to a wavy bob that ends just above her shoulders, tucked behind one ear. She wears an oversized cream knitted jumper with the sleeves pushed up and light blue jeans, and she is barefoot. She sits curled in the corner of a sofa by a window, holding a mug in both hands and smiling a little. Warm morning light comes through the window, with a houseplant and a bookshelf behind her. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1> and <Picture 2> at home on a quiet morning, in a square image, showing her once, from head to knee. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her freckles, her red lips, her skin and her build exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is cut to a wavy bob that ends just above her shoulders, tucked behind one ear. She wears an oversized cream knitted jumper with the sleeves pushed up and light blue jeans, and she is barefoot. She sits curled in the corner of a sofa by a window, holding a mug in both hands and smiling a little. Warm morning light comes through the window, with a houseplant and a bookshelf behind her. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "a-rooftop-dawn": {
+   "test": "A",
+   "title": "Her in five scenes: rooftop at dawn, braid and field jacket",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 42,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> and <Picture 2> is <Subject 1>. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. The target image is a photograph of <Subject 1> on a rooftop at dawn, in a square 1:1 image, showing her once, from head to knee. <Subject 1> is preserved: her face, her dark eyes, her freckles, her red lips, her skin and her build are exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is in one long braid that hangs over her left shoulder. She wears an olive green utility jacket with the sleeves rolled to the elbow, a grey T-shirt, dark cargo trousers and sturdy boots, with a small backpack on her shoulders. She stands beside a satellite dish, looking up at the sky with one hand shading her eyes. Behind her the city skyline is pale under a pink and orange dawn sky. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1> and <Picture 2> on a rooftop at dawn, in a square image, showing her once, from head to knee. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her freckles, her red lips, her skin and her build exactly as they are in the pictures. Her hair and her clothes are new. Her black hair is in one long braid that hangs over her left shoulder. She wears an olive green utility jacket with the sleeves rolled to the elbow, a grey T-shirt, dark cargo trousers and sturdy boots, with a small backpack on her shoulders. She stands beside a satellite dish, looking up at the sky with one hand shading her eyes. Behind her the city skyline is pale under a pink and orange dawn sky. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "b-navy-coat": {
+   "test": "B",
+   "title": "One change at a time: a navy coat",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1201,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman in <Picture 1> is <Subject 1>. The target image is the same photograph of <Subject 1> with one change. Her red polka-dot dress is replaced by a navy-blue wool coat, buttoned up to a high collar. Everything else is preserved exactly as it is in <Picture 1>: her face, her hair, her earring, her red lips, her freckles, her pose, the light and the background. It is still a photograph of a real person. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>. Replace her red polka-dot dress with a navy-blue wool coat, buttoned up to a high collar. Keep her face, her hair, her earring, her red lips, her freckles, her pose, the light and the background exactly as it is.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "b-rainy-street": {
+   "test": "B",
+   "title": "One change at a time: a rainy street behind her",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1202,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman in <Picture 1> is <Subject 1>. The target image is the same photograph of <Subject 1> with one change. The plain background is replaced by a city street at night in the rain, out of focus, with soft blurred lights. Everything else is preserved exactly as it is in <Picture 1>: her face, her hair, her earring, her red lips, her freckles, her dress, her pose and the light on her face. It is still a photograph of a real person. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>. Replace the plain background with a city street at night in the rain, out of focus, with soft blurred lights. Keep her face, her hair, her earring, her red lips, her freckles, her dress, her pose and the light on her face exactly as it is.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "b-evening-light": {
+   "test": "B",
+   "title": "One change at a time: evening light",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1203,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman in <Picture 1> is <Subject 1>. The target image is the same photograph of <Subject 1> with one change. The light is now low, warm evening sunlight coming from the right, with a soft shadow on the left side of her face. Everything else is preserved exactly as it is in <Picture 1>: her face, her hair, her earring, her red lips, her freckles, her dress, her pose and the background. It is still a photograph of a real person. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>. Change the light to low, warm evening sunlight coming from the right, with a soft shadow on the left side of her face. Keep her face, her hair, her earring, her red lips, her freckles, her dress, her pose and the background exactly as it is.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "b-ten-years-older": {
+   "test": "B",
+   "title": "One change at a time: ten years older",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1204,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman in <Picture 1> is <Subject 1>. The target image is the same photograph of <Subject 1> with one change. She is ten years older, about 42: one clean silver streak runs through her black hair from the left temple, and there are fine lines at the corners of her eyes and mouth. Everything else is preserved exactly as it is in <Picture 1>: the shape of her face, her dark eyes, her freckles, her red lips, her earring, her dress, her pose, the light and the background. It is still a photograph of a real person. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>. Make her ten years older, about 42: one clean silver streak through her black hair from the left temple, and fine lines at the corners of her eyes and mouth. Keep the shape of her face, her dark eyes, her freckles, her red lips, her earring, her dress, her pose, the light and the background exactly as it is.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "c-size-1mp": {
+   "test": "C",
+   "title": "The size question: 1 megapixel",
+   "size": [
+    1024,
+    1024
+   ],
+   "seed": 1101,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "A casting portrait for a film production: a single head-and-shoulders photograph of one woman, alone, in a square 1:1 image, on a plain warm cream studio background. She faces the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from the upper left. It is a photograph of a real person, with natural colour, smooth clear natural skin and sharp focus on the eyes. The image contains no text, letters or numbers.",
+     "pictures": []
+    },
+    "p-h3-image": {
+     "prompt": "A studio portrait photograph of one woman, head and shoulders, on a plain warm cream background, facing the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from a window at the upper left. Natural colour, smooth clear skin, sharp focus on the eyes.",
+     "pictures": []
+    }
+   }
+  },
+  "c-size-4mp": {
+   "test": "C",
+   "title": "The size question: 4 megapixels",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1101,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "A casting portrait for a film production: a single head-and-shoulders photograph of one woman, alone, in a square 1:1 image, on a plain warm cream studio background. She faces the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from the upper left. It is a photograph of a real person, with natural colour, smooth clear natural skin and sharp focus on the eyes. The image contains no text, letters or numbers.",
+     "pictures": []
+    },
+    "p-h3-image": {
+     "prompt": "A studio portrait photograph of one woman, head and shoulders, on a plain warm cream background, facing the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from a window at the upper left. Natural colour, smooth clear skin, sharp focus on the eyes.",
+     "pictures": []
+    }
+   }
+  },
+  "c-size-8mp": {
+   "test": "C",
+   "title": "The size question: 8 megapixels",
+   "size": [
+    2912,
+    2912
+   ],
+   "seed": 1101,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "A casting portrait for a film production: a single head-and-shoulders photograph of one woman, alone, in a square 1:1 image, on a plain warm cream studio background. She faces the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from the upper left. It is a photograph of a real person, with natural colour, smooth clear natural skin and sharp focus on the eyes. The image contains no text, letters or numbers.",
+     "pictures": []
+    },
+    "p-h3-image": {
+     "prompt": "A studio portrait photograph of one woman, head and shoulders, on a plain warm cream background, facing the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from a window at the upper left. Natural colour, smooth clear skin, sharp focus on the eyes.",
+     "pictures": []
+    }
+   }
+  },
+  "c-size-16mp": {
+   "test": "C",
+   "title": "The size question: 16 megapixels",
+   "size": [
+    4096,
+    4096
+   ],
+   "seed": 1101,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "A casting portrait for a film production: a single head-and-shoulders photograph of one woman, alone, in a square 1:1 image, on a plain warm cream studio background. She faces the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from the upper left. It is a photograph of a real person, with natural colour, smooth clear natural skin and sharp focus on the eyes. The image contains no text, letters or numbers.",
+     "pictures": []
+    },
+    "p-h3-image": {
+     "prompt": "A studio portrait photograph of one woman, head and shoulders, on a plain warm cream background, facing the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a small knowing smile. Her hair is long, wavy and black, loosely pinned back, with loose strands around her face and the rest falling past her shoulders. She wears one small gold stud earring in each ear and a red dress with white polka dots and thin shoulder straps. Soft daylight comes from a window at the upper left. Natural colour, smooth clear skin, sharp focus on the eyes.",
+     "pictures": []
+    }
+   }
+  },
+  "d-three-fingers": {
+   "test": "D",
+   "title": "Stress round: three fingers",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1301,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> is <Subject 1>. The target image is a photograph of <Subject 1>, alone, in a square 1:1 image. <Subject 1> is preserved: her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin are exactly as they are in <Picture 1>. She is seen from the waist up, holding up her right hand at shoulder height with the palm towards the camera, showing exactly three fingers: the index, middle and ring fingers are raised, and the thumb and little finger are folded down. She wears her red polka-dot dress. The background is a plain warm cream wall. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1>, alone, in a square image. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin exactly as they are in <Picture 1>. She is seen from the waist up, holding up her right hand at shoulder height with the palm towards the camera, showing exactly three fingers: the index, middle and ring fingers are raised, and the thumb and little finger are folded down. She wears her red polka-dot dress. The background is a plain warm cream wall. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "d-twenty-to-five": {
+   "test": "D",
+   "title": "Stress round: a clock at twenty to five",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1302,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> is <Subject 1>. The target image is a photograph of <Subject 1>, alone, in a square 1:1 image. <Subject 1> is preserved: her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin are exactly as they are in <Picture 1>. She is seen from the waist up, standing beside a large round wall clock with a white face, black hands and no numerals, only twelve plain hour marks. The clock shows exactly twenty minutes to five: the short hour hand points between the four and the five, and the long minute hand points straight at the eight o'clock position. She wears her red polka-dot dress and glances at the clock. The wall is plain warm cream. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1>, alone, in a square image. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin exactly as they are in <Picture 1>. She is seen from the waist up, standing beside a large round wall clock with a white face, black hands and no numerals, only twelve plain hour marks. The clock shows exactly twenty minutes to five: the short hour hand points between the four and the five, and the long minute hand points straight at the eight o'clock position. She wears her red polka-dot dress and glances at the clock. The wall is plain warm cream. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "d-five-headphones": {
+   "test": "D",
+   "title": "Stress round: five pairs of headphones",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1303,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> is <Subject 1>. The target image is a photograph of <Subject 1>, alone, in a square 1:1 image. <Subject 1> is preserved: her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin are exactly as they are in <Picture 1>. She sits behind a plain wooden desk, seen from the front. On the desk in front of her, in one straight row from left to right, are exactly five pairs of large black studio headphones, evenly spaced, and nothing else. She wears her red polka-dot dress and rests her hands on the edge of the desk. The wall behind her is plain warm cream. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1>, alone, in a square image. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin exactly as they are in <Picture 1>. She sits behind a plain wooden desk, seen from the front. On the desk in front of her, in one straight row from left to right, are exactly five pairs of large black studio headphones, evenly spaced, and nothing else. She wears her red polka-dot dress and rests her hands on the edge of the desk. The wall behind her is plain warm cream. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "d-mirror": {
+   "test": "D",
+   "title": "Stress round: at the mirror",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1304,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> is <Subject 1>. The target image is a photograph of <Subject 1>, alone, in a square 1:1 image. <Subject 1> is preserved: her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin are exactly as they are in <Picture 1>. She stands at a bathroom mirror, seen from behind her right shoulder, putting on red lipstick with her right hand. The mirror shows her reflection facing us: the same woman, the same dress, the same hair, with the hand and the lipstick on the correct side for a reflection. She appears twice only: once from behind and once in the mirror. The room is small and tiled in white, lit by a warm lamp above the mirror. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1>, alone, in a square image. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her long wavy black hair and her skin exactly as they are in <Picture 1>. She stands at a bathroom mirror, seen from behind her right shoulder, putting on red lipstick with her right hand. The mirror shows her reflection facing us: the same woman, the same dress, the same hair, with the hand and the lipstick on the correct side for a reflection. She appears twice only: once from behind and once in the mirror. The room is small and tiled in white, lit by a warm lamp above the mirror. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "e-object-headphones": {
+   "test": "E",
+   "title": "Several pictures into one: the headphones, from words",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1501,
+   "takes": 1,
+   "models": {
+    "h3-image": {
+     "prompt": "A product photograph for a catalogue: one pair of large matte black over-ear studio headphones with amber stitching on the ear pads, alone, centred, on a plain white background with a soft shadow under it, in a square 1:1 image. Even studio light, natural colour, sharp focus. The image contains no text, letters, logos or numbers.",
+     "pictures": []
+    }
+   }
+  },
+  "e-object-jacket": {
+   "test": "E",
+   "title": "Several pictures into one: the rain jacket, from words",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1502,
+   "takes": 1,
+   "models": {
+    "h3-image": {
+     "prompt": "A product photograph for a catalogue: one amber-orange hooded rain jacket, laid flat and unzipped, alone, centred, on a plain white background with a soft shadow under it, in a square 1:1 image. Even studio light, natural colour, sharp focus. The image contains no text, letters, logos or numbers.",
+     "pictures": []
+    }
+   }
+  },
+  "e-object-card": {
+   "test": "E",
+   "title": "Several pictures into one: the graphics card, from words",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1503,
+   "takes": 1,
+   "models": {
+    "h3-image": {
+     "prompt": "A product photograph for a catalogue: one desktop computer graphics card with a black shroud and two cooling fans, seen from the fan side at a slight angle, alone, centred, on a plain white background with a soft shadow under it, in a square 1:1 image. Even studio light, natural colour, sharp focus. The image contains no text, letters, logos or numbers.",
+     "pictures": []
+    }
+   }
+  },
+  "e-four-into-one": {
+   "test": "E",
+   "title": "Several pictures into one: her and the three objects",
+   "size": [
+    2048,
+    2048
+   ],
+   "seed": 1504,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> is <Subject 1>. The headphones in <Picture 2> are <Subject 2>. The rain jacket in <Picture 3> is <Subject 3>. The graphics card in <Picture 4> is <Subject 4>. The target image is a photograph of <Subject 1>, alone, in a square 1:1 image, seen from the waist up at a wooden workbench. <Subject 1> is preserved: her face, her dark eyes, her black eyebrows, her freckles, her red lips and her long wavy black hair are exactly as they are in <Picture 1>. She wears <Subject 3>, unzipped, over her red polka-dot dress, and <Subject 2> rests around her neck. She holds <Subject 4> in both hands at chest height with the fans towards the camera, looking down at it. Each of the three objects appears exactly once and looks as it does in its own picture. The wall behind her is plain warm cream, lit by soft daylight from the left. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face",
+      "e-object-headphones",
+      "e-object-jacket",
+      "e-object-card"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photograph of the woman from <Picture 1>, alone, in a square image, seen from the waist up at a wooden workbench. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips and her long wavy black hair exactly as they are in <Picture 1>. She wears the rain jacket from <Picture 3>, unzipped, over her red polka-dot dress, and the headphones from <Picture 2> rest around her neck. She holds the graphics card from <Picture 4> in both hands at chest height with the fans towards the camera, looking down at it. Each of the three objects appears exactly once and looks as it does in its own picture. The wall behind her is plain warm cream, lit by soft daylight from the left. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text in the image.",
+     "pictures": [
+      "face",
+      "e-object-headphones@h3-image",
+      "e-object-jacket@h3-image",
+      "e-object-card@h3-image"
+     ]
+    }
+   }
+  },
+  "g-poster-one-pass": {
+   "test": "G",
+   "title": "Poster 1 in one pass",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 1701,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> and <Picture 2> is <Subject 1>. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. The target image is a photographed film poster for a science-fiction thriller series, in a tall 2:3 image, showing <Subject 1> once. <Subject 1> is preserved: her face, her dark eyes, her freckles, her red lips, her skin and her build are exactly as they are in the pictures. She stands in heavy rain at night on an empty rooftop, seen from the knees up, looking up at the sky. Her black hair is coming loose from a low bun. She wears an amber rain jacket, open, over a red polka-dot dress, with large matte black studio headphones around her neck. Far above her in the dark sky, small and sharp, hangs a ring-shaped space station with one cold cyan light. The colours are deep navy and black, with the amber jacket and the cyan light the only strong colours. The poster carries this lettering and no other, spelled exactly: At the very top, in small widely spaced white capitals: \"A LIMITED SERIES · 8 EPISODES\". In the lower third, the title in large bold condensed white capitals on one line: \"THE ECHO OF LAZARUS\". Directly under the title, in smaller white italics: \"Six hours. One signal.\" Under that, centred, in a monospaced typeface: \"06:00:00\". On the bottom line, in small white capitals: \"26 OCTOBER 2045\". It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no other text, letters or numbers.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "A photographed film poster for a science-fiction thriller series, tall 2:3, showing the woman from <Picture 1> and <Picture 2> once. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her freckles, her red lips, her skin and her build exactly as they are in the pictures. She stands in heavy rain at night on an empty rooftop, seen from the knees up, looking up at the sky. Her black hair is coming loose from a low bun. She wears an amber rain jacket, open, over a red polka-dot dress, with large matte black studio headphones around her neck. Far above her in the dark sky, small and sharp, hangs a ring-shaped space station with one cold cyan light. The colours are deep navy and black, with the amber jacket and the cyan light the only strong colours. The poster carries this lettering, spelled exactly: At the very top, in small widely spaced white capitals: \"A LIMITED SERIES · 8 EPISODES\". In the lower third, the title in large bold condensed white capitals on one line: \"THE ECHO OF LAZARUS\". Directly under the title, in smaller white italics: \"Six hours. One signal.\" Under that, centred, in a monospaced typeface: \"06:00:00\". On the bottom line, in small white capitals: \"26 OCTOBER 2045\". It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no other text on the poster.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "g-poster-retitled": {
+   "test": "G",
+   "title": "Poster 1 retitled",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 1702,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The target image is the same film poster as <Picture 1> with two changes to its lettering. The title \"THE ECHO OF LAZARUS\" is replaced by \"THE LAZARUS SIGNAL\", in the same typeface, size, colour and place. The date line \"26 OCTOBER 2045\" is replaced by \"27 OCTOBER 2045\", in the same typeface, size, colour and place. Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her clothes, her headphones, the rain, the rooftop, the station in the sky, the colours, and the other three lines of lettering, which still read \"A LIMITED SERIES · 8 EPISODES\", \"Six hours. One signal.\" and \"06:00:00\". The poster contains no other text.",
+     "pictures": [
+      "g-poster-one-pass"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>. Change the title \"THE ECHO OF LAZARUS\" to \"THE LAZARUS SIGNAL\" and change the date line \"26 OCTOBER 2045\" to \"27 OCTOBER 2045\", each in the same typeface, size, colour and place as before. Keep everything else exactly as it is: the woman, her face, her clothes, her headphones, the rain, the rooftop, the object in the sky, the colours, and the other three lines of lettering, \"A LIMITED SERIES · 8 EPISODES\", \"Six hours. One signal.\" and \"06:00:00\". There is no other text on the poster.",
+     "pictures": [
+      "g-poster-one-pass"
+     ]
+    }
+   }
+  },
+  "subject-body": {
+   "test": "subject",
+   "title": "Her body sheet, made from her face",
+   "size": [
+    2720,
+    1536
+   ],
+   "seed": 404,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The woman photographed in <Picture 1> is <Subject 1>. The target image is a costume and body reference photograph of <Subject 1> for a film production: one wide 16:9 photograph on a plain warm cream studio background with flat, even light, showing her body three times, at the same height and evenly spaced: from the front, from the side and from the back. Her head is not in the picture. Each of the three figures is framed from the base of the neck down to the feet: the top of the picture cuts across the neck, so no face, no chin and no head appear anywhere. The picture is about her body, her proportions and her clothes. <Subject 1> is preserved from the neck down: her skin, her slim, athletic build, the ends of her long wavy black hair falling over her shoulders and down her back, and her red dress with white polka dots, thin shoulder straps and a tied bow at the front are those of <Picture 1>. She is about 170 cm tall. The dress is fitted at the waist and ends at the knee, with a skirt that flares a little. She wears flat tan leather sandals. She stands relaxed and upright with her arms at her sides, and both feet are fully inside the picture. It is a photograph of a real person, with natural colour, real skin and real fabric, and her proportions and her dress are consistent across the three views. The image contains no text, letters or numbers.",
+     "pictures": [
+      "face"
+     ]
+    }
+   }
+  },
+  "warm-take-1": {
+   "test": "warm take",
+   "title": "A new prompt, then the same prompt again",
+   "size": [
+    1024,
+    1024
+   ],
+   "seed": 2101,
+   "takes": 1,
+   "models": {
+    "h3-image": {
+     "prompt": "A casting portrait for a film production: a single head-and-shoulders photograph of one woman, alone, in a square 1:1 image, on a plain soft grey studio background. She faces the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, closed in a calm half smile. Her hair is long, wavy and black, worn loose over one shoulder. She wears a navy wool coat over a white shirt buttoned to the collar. Soft daylight comes from the upper right. It is a photograph of a real person, with natural colour, smooth clear natural skin and sharp focus on the eyes. The image contains no text, letters or numbers.",
+     "pictures": []
+    }
+   }
+  },
+  "warm-take-2": {
+   "test": "warm take",
+   "title": "A new prompt, then the same prompt again (second prompt)",
+   "size": [
+    1024,
+    1024
+   ],
+   "seed": 2101,
+   "takes": 1,
+   "models": {
+    "h3-image": {
+     "prompt": "A casting portrait for a film production: a single head-and-shoulders photograph of one woman, alone, in a square 1:1 image, on a plain pale blue studio background. She faces the camera at eye level with her head upright. She appears 27 years old, with a soft oval face and a gently pointed chin, light warm skin with fine freckles across the nose and cheeks, strong black eyebrows, and dark brown eyes that are nearly black. She has a small nose and full red lips, parted in a warm open smile. Her hair is long, wavy and black, pinned up at the back with a few loose strands framing her face. She wears small gold hoop earrings and a red dress with white polka dots and a square neckline. Soft daylight comes from the left. It is a photograph of a real person, with natural colour, smooth clear natural skin and sharp focus on the eyes. The image contains no text, letters or numbers.",
+     "pictures": []
+    }
+   }
+  }
+ }
+}

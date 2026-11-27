@@ -1,0 +1,281 @@
+made_at,prompt,test,step,take,model,card,place,mode,pictures_in,width,height,megapixels,steps,seed,seconds,card_gb_peak,system_gb_peak,watts_avg,watts_peak,watt_hours,card_temp_c,colab_units,cost_usd,units_estimated
+2026-11-24T08:12:42.655Z,,character,"Maya, portrait",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,47.15,11.5,15.9,164.3,186.2,2.15,77,,,
+2026-11-24T08:22:05.491Z,,character,"Maya · realistic · from reference, portrait",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,46.69,11.5,15.9,165.4,186.1,2.16,77,,,
+2026-11-24T08:32:19.254Z,,character,"Maya, portrait, version 2",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,1024,1024,1.05,6,711150916,43.89,11.5,15.9,160.2,186.4,1.96,75,,,
+2026-11-24T08:33:11.461Z,,character,"Maya, portrait, version 2",2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,1024,1024,1.05,6,1652007064,27.37,11.4,15.9,173.8,186.2,1.35,76,,,
+2026-11-24T08:34:39.461Z,,character,"Maya, portrait, version 2",3,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,89484416,61.55,11.4,16.2,170,184.8,2.83,78,,,
+2026-11-24T08:35:49.534Z,,character,"Maya, portrait, version 2",4,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,760943687,44.99,11.4,16.2,177.5,185.1,2.22,78,,,
+2026-11-24T08:46:24.339Z,,character,"Maya · redhead, portrait",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,1,2048,2048,4.19,6,101,106.84,11.5,18.8,167.3,185.7,4.93,78,,,
+2026-11-24T08:48:17.641Z,,character,"Maya · redhead, portrait",2,MiniMax H3-Image,RTX 3060 12 GB,home,several,1,2048,2048,4.19,6,1230460504,64.22,11.4,18.8,179,185.8,3.18,79,,,
+2026-11-24T08:49:27.368Z,,character,"Maya · redhead · realistic, portrait",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,1,2048,2048,4.19,6,101,107.94,11.5,18.8,169.4,185.1,5.04,80,,,
+2026-11-24T08:51:24.349Z,,character,"Maya · redhead · realistic, portrait",2,MiniMax H3-Image,RTX 3060 12 GB,home,several,1,2048,2048,4.19,6,326648866,64.23,11.4,18.7,180.3,185.9,3.16,80,,,
+2026-11-24T08:53:39.350Z,,character,"Maya · redhead, portrait",3,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,48.1,11.5,18.6,164.9,186.3,2.2,78,,,
+2026-11-24T08:54:35.283Z,,character,"Maya · redhead, portrait",4,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,986288532,31.84,11.4,18.6,174.5,186,1.55,77,,,
+2026-11-24T08:55:15.211Z,,character,"Maya · redhead · realistic, portrait",3,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,48.28,11.5,18.7,168.5,186.2,2.25,78,,,
+2026-11-24T08:56:11.862Z,,character,"Maya · redhead · realistic, portrait",4,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1665075648,31.76,11.4,18.6,176.8,186.4,1.57,78,,,
+2026-11-24T08:56:58.520Z,,character,"Maya · redhead · short prompt, portrait",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,43.55,11.5,18.6,164.3,186.4,2.01,78,,,
+2026-11-24T08:57:50.731Z,,character,"Maya · redhead · short prompt, portrait",2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,273815506,29.85,11.5,18.6,177.6,186.3,1.43,78,,,
+2026-11-24T08:58:26.139Z,,character,"Maya · redhead · realistic · short prompt, portrait",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,43.65,11.5,18.6,165.7,186.6,2.03,78,,,
+2026-11-24T08:59:18.409Z,,character,"Maya · redhead · realistic · short prompt, portrait",2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,667913463,29.95,11.5,18.6,173.6,186.4,1.45,78,,,
+2026-11-24T09:00:49.159Z,,character,"Maya · redhead · short prompt, portrait",3,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,43.96,11.5,18.6,164.4,186.3,2.01,77,,,
+2026-11-24T09:01:41.065Z,,character,"Maya · redhead · short prompt, portrait",4,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,506627080,30.29,11.5,18.6,174.4,186.3,1.45,77,,,
+2026-11-24T09:02:20.468Z,,character,"Maya · redhead · realistic · short prompt, portrait",3,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,101,43.94,11.5,18.6,165.1,186.4,2.02,78,,,
+2026-11-24T09:03:12.763Z,,character,"Maya · redhead · realistic · short prompt, portrait",4,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1155460493,30.29,11.5,18.6,178.6,186.4,1.44,78,,,
+2026-11-24T09:10:38.399Z,,character,"Maya · redhead, portrait, version 2",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,565138846,60.63,11.5,18.6,168.1,184.5,2.85,77,,,
+2026-11-24T09:11:48.253Z,,character,"Maya · redhead, portrait, version 2",2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1033337135,44.99,11.5,18.7,175.9,184.4,2.2,78,,,
+2026-11-24T09:17:40.376Z,,character,"Maya · redhead, body",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2720,1536,4.18,6,303,62.24,11.5,18.6,169.3,185.6,2.87,77,,,
+2026-11-24T09:18:50.721Z,,character,"Maya · redhead, body",2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2720,1536,4.18,6,783063286,45.29,11.4,18.7,178.8,185.4,2.24,78,,,
+2026-11-24T09:27:25.890Z,,character,"At work, low bun and amber jacket",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,2030568973,120.84,11.4,19,170.5,185.3,5.73,79,,,
+2026-11-24T09:29:33.079Z,,character,"Rainy street, ponytail and leather jacket",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,982962720,119.94,11.5,19.1,171.8,186,5.68,80,,,
+2026-11-24T09:31:41.938Z,,character,"Gallery evening, chignon and black dress",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,1626236304,121.14,11.5,19.1,171.7,185.1,5.77,80,,,
+2026-11-24T09:33:49.967Z,,character,"At home, wavy bob and cream jumper",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,402216620,121.15,11.5,19.2,171.6,185.2,5.77,80,,,
+2026-11-24T09:36:00.946Z,,character,"Rooftop at dawn, braid and field jacket",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,881380297,121.21,11.5,19.1,171.6,185.5,5.77,80,,,
+2026-11-24T09:38:34.931Z,,character,"Maya · redhead · realistic, portrait, version 2",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1381888277,60.94,11.4,18.8,168.2,185.1,2.8,78,,,
+2026-11-24T09:39:45.441Z,,character,"Maya · redhead · realistic, portrait, version 2",2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,301678452,44.79,11.5,18.9,177,185.4,2.21,79,,,
+2026-11-24T09:43:53.982Z,subject-body,subject,"Maya · redhead · realistic, body",1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2720,1536,4.18,6,404,62.41,11.4,18.9,167.8,185.1,2.89,78,,,
+2026-11-24T09:45:03.416Z,subject-body,subject,"Maya · redhead · realistic, body",2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2720,1536,4.18,6,864190565,45.44,11.5,18.9,176.2,185.2,2.25,79,,,
+2026-11-24T09:49:10.489Z,a-at-work,A,"A · At work, low bun and amber jacket",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,567641753,120.68,11.5,19,170.8,185.2,5.74,80,,,
+2026-11-24T09:51:17.772Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,379805492,120.91,11.5,19.1,171.5,185.3,5.76,80,,,
+2026-11-24T09:53:28.931Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,2026617560,121,11.5,19.1,171.1,185.3,5.71,80,,,
+2026-11-24T09:55:39.819Z,a-at-home,A,"A · At home, wavy bob and cream jumper",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,817085152,120.91,11.5,19.1,172,185.5,5.73,80,,,
+2026-11-24T09:57:50.628Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,366592170,120.98,11.5,19.1,171,185.5,5.75,80,,,
+2026-11-24T10:50:02.006Z,c-size-1mp,C,"C · Size, 1 megapixel",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,1101,21.08,11.4,13.3,85.3,186.8,0.5,65,,,
+2026-11-24T10:50:35.350Z,c-size-1mp,C,"C · Size, 1 megapixel",2,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,1863379145,6.37,11.3,13.5,142.7,186.8,0.2,67,,,
+2026-11-24T10:50:47.873Z,c-size-4mp,C,"C · Size, 4 megapixels",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,2048,2048,4.19,6,1101,27.17,11.5,13.5,143.9,186.6,1.08,70,,,
+2026-11-24T10:51:23.063Z,c-size-4mp,C,"C · Size, 4 megapixels",2,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,2048,2048,4.19,6,100783508,19.59,11.4,13.4,166.7,186.4,0.93,72,,,
+2026-11-24T10:51:49.458Z,c-size-16mp,C,"C · Size, 16 megapixels",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,4096,4096,16.78,6,1101,104.75,11.5,15.1,168.6,184.9,4.92,79,,,
+2026-11-24T10:53:42.884Z,c-size-16mp,C,"C · Size, 16 megapixels",2,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,4096,4096,16.78,6,336936145,96.49,11.3,15.2,175.5,185.3,4.73,79,,,
+2026-11-24T10:55:27.634Z,b-navy-coat,B,B · A navy coat,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1201,60.34,11.4,16.8,168.7,184.8,2.81,78,,,
+2026-11-24T10:56:37.147Z,b-navy-coat,B,B · A navy coat,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1372013693,44.45,11.5,16.7,177.3,185,2.17,78,,,
+2026-11-24T10:57:29.390Z,b-rainy-street,B,B · A rainy street behind her,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1202,60.27,11.5,16.7,168.7,184.8,2.81,79,,,
+2026-11-24T10:58:39.066Z,b-rainy-street,B,B · A rainy street behind her,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,388621824,44.46,11.4,16.7,175.4,184.8,2.19,79,,,
+2026-11-24T10:59:31.534Z,b-evening-light,B,B · Evening light,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1203,59.73,11.5,16.7,170.2,185,2.79,79,,,
+2026-11-24T11:00:37.053Z,b-evening-light,B,B · Evening light,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,777908373,44.3,11.5,16.7,176.2,184.4,2.15,79,,,
+2026-11-24T11:01:29.569Z,b-ten-years-older,B,B · Ten years older,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1204,61.28,11.5,16.8,170.3,184.8,2.84,79,,,
+2026-11-24T11:02:39.864Z,b-ten-years-older,B,B · Ten years older,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1038570748,44.82,11.5,16.7,176.7,184.6,2.21,79,,,
+2026-11-24T11:03:33.028Z,d-three-fingers,D,D · Three fingers,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1301,61.01,11.5,16.8,169.9,184.9,2.83,79,,,
+2026-11-24T11:04:43.593Z,d-three-fingers,D,D · Three fingers,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1022618454,44.9,11.4,16.7,176.6,184.8,2.21,79,,,
+2026-11-24T11:05:36.129Z,d-twenty-to-five,D,D · Twenty to five,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1302,61.54,11.5,16.9,170.7,184.7,2.89,79,,,
+2026-11-24T11:06:46.590Z,d-twenty-to-five,D,D · Twenty to five,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1251044883,44.98,11.4,16.9,177.3,184.9,2.22,79,,,
+2026-11-24T11:07:39.539Z,d-five-headphones,D,D · Five pairs of headphones,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1303,61.37,11.4,17,169,184.8,2.86,79,,,
+2026-11-24T11:08:49.435Z,d-five-headphones,D,D · Five pairs of headphones,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1785202033,44.94,11.4,17,177.4,185.6,2.22,79,,,
+2026-11-24T11:09:41.978Z,d-mirror,D,D · At the mirror,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,1304,61.49,11.4,17,167.2,184.8,2.88,79,,,
+2026-11-24T11:10:51.692Z,d-mirror,D,D · At the mirror,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,6,41442735,44.98,11.4,17,177.2,185.1,2.22,79,,,
+2026-11-24T11:18:18.100Z,e-object-headphones,E,"E · Object, studio headphones",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,2048,2048,4.19,6,1501,26.44,11.5,16.9,141.4,186.5,1.06,75,,,
+2026-11-24T11:18:51.959Z,e-object-jacket,E,"E · Object, amber rain jacket",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,2048,2048,4.19,6,1502,26.33,11.4,16.9,140.9,186.3,1.02,74,,,
+2026-11-24T11:19:25.657Z,e-object-card,E,"E · Object, graphics card",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,2048,2048,4.19,6,1503,26.32,11.5,16.8,142.9,186.3,1.07,74,,,
+2026-11-24T11:19:59.769Z,a-at-work,A,"A · At work, low bun and amber jacket",2,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,1002374895,121.17,11.5,18.7,172,185,5.78,80,,,
+2026-11-24T11:22:10.457Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",2,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,94357993,121.47,11.5,18.7,171.9,184.5,5.78,80,,,
+2026-11-24T11:24:21.398Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",2,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,113610567,120.94,11.5,18.7,171.2,184.8,5.8,80,,,
+2026-11-24T11:26:28.610Z,a-at-home,A,"A · At home, wavy bob and cream jumper",2,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,535911111,121.1,11.5,18.7,171,184.8,5.7,80,,,
+2026-11-24T11:28:40.078Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",2,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,6,207874707,121.05,11.5,18.7,170.5,184.9,5.73,80,,,
+2026-11-24T11:36:08.802Z,c-size-1mp,C,"C · Size, 1 megapixel",1,P-H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,8,1101,32.68,11.4,18.5,92,178.5,0.84,69,,,
+2026-11-24T11:36:47.599Z,c-size-1mp,C,"C · Size, 1 megapixel",2,P-H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,8,1074576172,9.92,11.4,10,139.2,178,0.39,68,,,
+2026-11-24T11:43:17.442Z,c-size-4mp,C,"C · Size, 4 megapixels",1,P-H3-Image,RTX 3060 12 GB,home,words,0,2048,2048,4.19,8,1101,33.76,11.4,10.4,154.8,186.2,1.42,73,,,
+2026-11-24T11:43:25.202Z,c-size-4mp,C,"C · Size, 4 megapixels",1,MiniMax H3-Image,L4,colab,words,0,2048,2048,4.19,6,1101,64.2,21.8,,,,,,0.0346,0.0041,True
+2026-11-24T11:43:56.326Z,c-size-4mp,C,"C · Size, 4 megapixels",2,P-H3-Image,RTX 3060 12 GB,home,words,0,2048,2048,4.19,8,112788524,32.31,11.4,10.5,163.1,187.5,1.45,74,,,
+2026-11-24T11:44:35.253Z,c-size-8mp,C,"C · Size, 8 megapixels",1,P-H3-Image,RTX 3060 12 GB,home,words,0,2912,2912,8.48,8,1101,79.82,11.4,11.1,153.7,186.5,3.37,77,,,
+2026-11-24T11:46:01.972Z,c-size-8mp,C,"C · Size, 8 megapixels",2,P-H3-Image,RTX 3060 12 GB,home,words,0,2912,2912,8.48,8,623940351,77.91,11.4,11.1,154.6,186.8,3.35,77,,,
+2026-11-24T11:47:28.707Z,b-navy-coat,B,B · A navy coat,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1201,102.77,11.4,11.4,148.3,186.8,4.24,76,,,
+2026-11-24T11:49:17.950Z,b-navy-coat,B,B · A navy coat,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1504278665,85.64,11.4,11.4,154.2,186.9,3.68,76,,,
+2026-11-24T11:50:50.125Z,b-rainy-street,B,B · A rainy street behind her,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1202,102.42,11.4,11.4,148.4,185.3,4.25,76,,,
+2026-11-24T11:52:39.810Z,b-rainy-street,B,B · A rainy street behind her,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,582097552,85.8,11.4,11.5,155,186.2,3.7,77,,,
+2026-11-24T11:54:12.529Z,b-evening-light,B,B · Evening light,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1203,103.26,11.4,11.4,148.4,187.5,4.25,76,,,
+2026-11-24T11:56:01.669Z,b-evening-light,B,B · Evening light,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,58233138,85.73,11.4,11.5,153.9,186.9,3.63,76,,,
+2026-11-24T11:57:33.188Z,b-ten-years-older,B,B · Ten years older,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1204,102.67,11.4,11.4,147.9,187.4,4.23,76,,,
+2026-11-24T11:59:22.386Z,b-ten-years-older,B,B · Ten years older,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,688578513,85.7,11.4,11.4,155.1,187,3.66,76,,,
+2026-11-24T12:00:54.596Z,c-size-8mp,C,"C · Size, 8 megapixels",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,2912,2912,8.48,6,1101,55.61,11.4,15.1,149.1,185.5,2.28,77,,,
+2026-11-24T12:01:55.611Z,c-size-8mp,C,"C · Size, 8 megapixels",2,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,2912,2912,8.48,6,964217343,42.06,11.3,15.2,176.1,185.4,2.01,79,,,
+2026-11-24T12:02:44.049Z,e-four-into-one,E,E · Four pictures into one,1,MiniMax H3-Image,RTX 3060 12 GB,home,several,4,2048,2048,4.19,6,1504,219.89,11.5,22.1,173.8,185.8,10.62,80,,,
+2026-11-24T12:06:31.983Z,e-four-into-one,E,E · Four pictures into one,2,MiniMax H3-Image,RTX 3060 12 GB,home,several,4,2048,2048,4.19,6,1965159798,160.76,11.4,22.2,181.8,185.9,8.13,80,,,
+2026-11-24T12:45:23.483Z,a-at-work,A,"A · At work, low bun and amber jacket",1,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,42,191.4,11.4,11,146.7,186.7,7.78,75,,,
+2026-11-24T12:48:50.827Z,a-at-work,A,"A · At work, low bun and amber jacket",2,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,727231365,161.63,11.4,11,154.8,186.3,6.97,76,,,
+2026-11-24T12:51:41.420Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",1,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,42,185.86,11.5,11,151.8,185.8,7.8,76,,,
+2026-11-24T12:54:58.262Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",2,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,117499586,161.5,11.4,10.9,155.1,186.9,6.94,77,,,
+2026-11-24T12:56:32.108Z,c-size-4mp,C,"C · Size, 4 megapixels",2,MiniMax H3-Image,L4,colab,words,0,2048,2048,4.19,6,1101,1.3,21.7,,,,,,0.0007,0.0001,True
+2026-11-24T12:56:53.242Z,c-size-1mp,C,"C · Size, 1 megapixel",1,MiniMax H3-Image,L4,colab,words,0,1024,1024,1.05,6,1101,108.2,21.8,,,,,,0.0583,0.0069,True
+2026-11-24T12:56:53.243Z,c-size-1mp,C,"C · Size, 1 megapixel",2,MiniMax H3-Image,L4,colab,words,0,1024,1024,1.05,6,915047831,5,21.8,,,,,,0.0027,0.0003,True
+2026-11-24T12:56:53.248Z,c-size-8mp,C,"C · Size, 8 megapixels",1,MiniMax H3-Image,L4,colab,words,0,2912,2912,8.48,6,1101,34.2,22,,,,,,0.0184,0.0022,True
+2026-11-24T12:56:53.250Z,c-size-8mp,C,"C · Size, 8 megapixels",2,MiniMax H3-Image,L4,colab,words,0,2912,2912,8.48,6,2078993889,32.3,21.7,,,,,,0.0174,0.0021,True
+2026-11-24T12:56:53.256Z,b-navy-coat,B,B · A navy coat,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1201,50.3,21.8,,,,,,0.0271,0.0032,True
+2026-11-24T12:56:53.259Z,b-navy-coat,B,B · A navy coat,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1482204457,33.2,21.9,,,,,,0.0179,0.0021,True
+2026-11-24T12:56:53.267Z,b-rainy-street,B,B · A rainy street behind her,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1202,45.1,21.9,,,,,,0.0243,0.0029,True
+2026-11-24T12:56:53.272Z,b-rainy-street,B,B · A rainy street behind her,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1403574495,33.2,21.9,,,,,,0.0179,0.0021,True
+2026-11-24T12:56:53.288Z,b-evening-light,B,B · Evening light,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1203,45.2,21.9,,,,,,0.0244,0.0029,True
+2026-11-24T12:56:53.313Z,b-evening-light,B,B · Evening light,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1210990727,33.2,21.9,,,,,,0.0179,0.0021,True
+2026-11-24T12:56:53.326Z,b-ten-years-older,B,B · Ten years older,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1204,45.7,21.9,,,,,,0.0246,0.0029,True
+2026-11-24T12:56:53.353Z,b-ten-years-older,B,B · Ten years older,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,906572128,33.2,21.9,,,,,,0.0179,0.0021,True
+2026-11-24T12:56:53.377Z,d-three-fingers,D,D · Three fingers,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1301,45.7,21.8,,,,,,0.0246,0.0029,True
+2026-11-24T12:56:53.383Z,d-three-fingers,D,D · Three fingers,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1003353894,33.2,21.8,,,,,,0.0179,0.0021,True
+2026-11-24T12:56:53.409Z,d-twenty-to-five,D,D · Twenty to five,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1302,45.6,21.8,,,,,,0.0246,0.0029,True
+2026-11-24T12:56:53.417Z,d-twenty-to-five,D,D · Twenty to five,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1001868652,33.2,21.8,,,,,,0.0179,0.0021,True
+2026-11-24T12:56:53.427Z,d-five-headphones,D,D · Five pairs of headphones,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1303,45.6,21.9,,,,,,0.0246,0.0029,True
+2026-11-24T12:56:53.432Z,d-five-headphones,D,D · Five pairs of headphones,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1023895162,33.2,21.8,,,,,,0.0179,0.0021,True
+2026-11-24T12:56:53.449Z,d-mirror,D,D · At the mirror,1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,1304,46.4,21.8,,,,,,0.025,0.0029,True
+2026-11-24T12:56:53.456Z,d-mirror,D,D · At the mirror,2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,169174297,155.8,21.8,,,,,,0.084,0.0099,True
+2026-11-24T12:56:53.462Z,a-at-work,A,"A · At work, low bun and amber jacket",1,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,42,89.6,21.8,,,,,,0.0483,0.0057,True
+2026-11-24T12:56:53.474Z,a-at-work,A,"A · At work, low bun and amber jacket",2,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,942292765,61.1,21.8,,,,,,0.0329,0.0039,True
+2026-11-24T12:56:53.488Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",1,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,42,91.2,21.8,,,,,,0.0491,0.0058,True
+2026-11-24T12:56:53.490Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",2,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,1301236734,61.1,21.8,,,,,,0.0329,0.0039,True
+2026-11-24T12:56:53.498Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",1,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,42,91.2,21.8,,,,,,0.0491,0.0058,True
+2026-11-24T12:56:53.507Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",2,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,1333149813,61.1,21.8,,,,,,0.0329,0.0039,True
+2026-11-24T12:56:53.521Z,a-at-home,A,"A · At home, wavy bob and cream jumper",1,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,42,91.2,21.8,,,,,,0.0491,0.0058,True
+2026-11-24T12:56:53.524Z,a-at-home,A,"A · At home, wavy bob and cream jumper",2,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,451960111,61.1,21.8,,,,,,0.0329,0.0039,True
+2026-11-24T12:56:53.535Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",1,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,42,91.2,21.8,,,,,,0.0491,0.0058,True
+2026-11-24T12:56:53.536Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",2,MiniMax H3-Image,L4,colab,several,2,2048,2048,4.19,6,77415842,61.1,21.8,,,,,,0.0329,0.0039,True
+2026-11-24T12:56:53.552Z,e-four-into-one,E,E · Four pictures into one,1,MiniMax H3-Image,A100,colab,several,4,2048,2048,4.19,6,1504,69.4,42.3,,,,,,0.1712,0.0202,True
+2026-11-24T12:56:53.555Z,e-four-into-one,E,E · Four pictures into one,2,MiniMax H3-Image,A100,colab,several,4,2048,2048,4.19,6,1548219267,40.2,31.7,,,,,,0.0992,0.0117,True
+2026-11-24T12:56:53.567Z,c-size-1mp,C,"C · Size, 1 megapixel",1,P-H3-Image,A100,colab,words,0,1024,1024,1.05,8,1101,29.6,24.4,,,,,,0.073,0.0086,True
+2026-11-24T12:56:53.569Z,c-size-1mp,C,"C · Size, 1 megapixel",2,P-H3-Image,A100,colab,words,0,1024,1024,1.05,8,1216587040,23.2,40.1,,,,,,0.0572,0.0067,True
+2026-11-24T12:56:53.586Z,c-size-4mp,C,"C · Size, 4 megapixels",1,P-H3-Image,A100,colab,words,0,2048,2048,4.19,8,1101,10,24.9,,,,,,0.0247,0.0029,True
+2026-11-24T12:56:53.592Z,c-size-4mp,C,"C · Size, 4 megapixels",2,P-H3-Image,A100,colab,words,0,2048,2048,4.19,8,523568663,10,24.9,,,,,,0.0247,0.0029,True
+2026-11-24T12:56:53.601Z,c-size-8mp,C,"C · Size, 8 megapixels",1,P-H3-Image,A100,colab,words,0,2912,2912,8.48,8,1101,20.1,25.4,,,,,,0.0496,0.0058,True
+2026-11-24T12:56:53.606Z,c-size-8mp,C,"C · Size, 8 megapixels",2,P-H3-Image,A100,colab,words,0,2912,2912,8.48,8,1742255968,19.5,25.4,,,,,,0.0481,0.0057,True
+2026-11-24T12:56:53.615Z,b-navy-coat,B,B · A navy coat,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1201,25.3,26.6,,,,,,0.0624,0.0074,True
+2026-11-24T12:56:53.619Z,b-navy-coat,B,B · A navy coat,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,657266879,18.1,26.6,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.628Z,b-rainy-street,B,B · A rainy street behind her,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1202,24.6,26.6,,,,,,0.0607,0.0072,True
+2026-11-24T12:56:53.644Z,b-rainy-street,B,B · A rainy street behind her,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,22580611,18.1,26.6,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.671Z,b-evening-light,B,B · Evening light,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1203,24.4,26.7,,,,,,0.0602,0.0071,True
+2026-11-24T12:56:53.680Z,b-evening-light,B,B · Evening light,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1542290685,18.1,26.7,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.703Z,b-ten-years-older,B,B · Ten years older,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1204,24.5,26.6,,,,,,0.0604,0.0071,True
+2026-11-24T12:56:53.712Z,b-ten-years-older,B,B · Ten years older,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,478397222,18.1,26.6,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.750Z,d-three-fingers,D,D · Three fingers,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1301,25.1,26.7,,,,,,0.0619,0.0073,True
+2026-11-24T12:56:53.777Z,d-three-fingers,D,D · Three fingers,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1396566312,18.1,26.7,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.816Z,d-twenty-to-five,D,D · Twenty to five,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1302,25.1,26.7,,,,,,0.0619,0.0073,True
+2026-11-24T12:56:53.821Z,d-twenty-to-five,D,D · Twenty to five,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,274101951,18.1,26.7,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.856Z,d-five-headphones,D,D · Five pairs of headphones,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1303,25.1,26.7,,,,,,0.0619,0.0073,True
+2026-11-24T12:56:53.874Z,d-five-headphones,D,D · Five pairs of headphones,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1903392611,18.1,26.7,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.902Z,d-mirror,D,D · At the mirror,1,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,1304,25.1,26.7,,,,,,0.0619,0.0073,True
+2026-11-24T12:56:53.905Z,d-mirror,D,D · At the mirror,2,P-H3-Image,A100,colab,one,1,2048,2048,4.19,8,87742664,18.1,26.7,,,,,,0.0446,0.0053,True
+2026-11-24T12:56:53.922Z,a-at-work,A,"A · At work, low bun and amber jacket",1,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,42,40.5,27.4,,,,,,0.0999,0.0118,True
+2026-11-24T12:56:53.933Z,a-at-work,A,"A · At work, low bun and amber jacket",2,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,1652747308,29.7,27.4,,,,,,0.0733,0.0086,True
+2026-11-24T12:56:53.947Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",1,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,42,40.3,27.4,,,,,,0.0994,0.0117,True
+2026-11-24T12:56:53.954Z,a-rainy-street,A,"A · Rainy street, ponytail and leather jacket",2,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,136708831,30.3,27.4,,,,,,0.0747,0.0088,True
+2026-11-24T12:56:53.974Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",1,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,42,40.2,27.4,,,,,,0.0992,0.0117,True
+2026-11-24T12:56:53.977Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",2,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,1659899663,29.5,27.4,,,,,,0.0728,0.0086,True
+2026-11-24T12:56:53.992Z,a-at-home,A,"A · At home, wavy bob and cream jumper",1,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,42,40.3,27.4,,,,,,0.0994,0.0117,True
+2026-11-24T12:56:53.995Z,a-at-home,A,"A · At home, wavy bob and cream jumper",2,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,1699817246,30.3,27.4,,,,,,0.0747,0.0088,True
+2026-11-24T12:56:54.010Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",1,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,42,40.3,27.4,,,,,,0.0994,0.0117,True
+2026-11-24T12:56:54.015Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",2,P-H3-Image,A100,colab,several,2,2048,2048,4.19,8,1359689132,29.6,27.4,,,,,,0.073,0.0086,True
+2026-11-24T12:56:54.034Z,e-four-into-one,E,E · Four pictures into one,1,P-H3-Image,A100,colab,several,4,2048,2048,4.19,8,1504,80.5,28.7,,,,,,0.1986,0.0234,True
+2026-11-24T12:56:54.041Z,e-four-into-one,E,E · Four pictures into one,2,P-H3-Image,A100,colab,several,4,2048,2048,4.19,8,747932977,62.1,28.7,,,,,,0.1532,0.0181,True
+2026-11-24T12:56:54.047Z,c-size-16mp,C,"C · Size, 16 megapixels",1,MiniMax H3-Image,A100,colab,words,0,4096,4096,16.78,6,1101,43.3,40.2,,,,,,0.1068,0.0126,True
+2026-11-24T12:56:54.057Z,c-size-16mp,C,"C · Size, 16 megapixels",2,MiniMax H3-Image,L4,colab,words,0,4096,4096,16.78,6,1873746467,110.7,21.8,,,,,,0.0597,0.007,True
+2026-11-24T12:57:49.040Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",1,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,42,185.94,11.4,11,152.5,186.9,7.84,77,,,
+2026-11-24T13:01:05.468Z,a-gallery-evening,A,"A · Gallery evening, chignon and black dress",2,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,1835474628,161.63,11.4,11,155.1,186.8,6.98,77,,,
+2026-11-24T13:03:49.705Z,c-size-4mp,C,"C · Size, 4 megapixels",3,MiniMax H3-Image,L4,colab,words,0,2048,2048,4.19,6,1776077881,19.2,22,,,,,,0.0103,0.0012,True
+2026-11-24T13:03:56.442Z,a-at-home,A,"A · At home, wavy bob and cream jumper",1,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,42,186.31,11.5,11,152.1,186.4,7.86,77,,,
+2026-11-24T13:07:13.325Z,a-at-home,A,"A · At home, wavy bob and cream jumper",2,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,762951641,161.66,11.4,11,154.7,186.8,6.96,77,,,
+2026-11-24T13:10:04.308Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",1,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,42,186.5,11.4,11,151.8,185.6,7.84,77,,,
+2026-11-24T13:13:20.650Z,a-rooftop-dawn,A,"A · Rooftop at dawn, braid and field jacket",2,P-H3-Image,RTX 3060 12 GB,home,several,2,2048,2048,4.19,8,1813753721,161.84,11.4,11.1,155.7,185.6,6.96,77,,,
+2026-11-24T13:16:10.700Z,d-three-fingers,D,D · Three fingers,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1301,103.25,11.4,10.9,148.1,186.7,4.28,77,,,
+2026-11-24T13:17:59.934Z,d-three-fingers,D,D · Three fingers,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1379786543,85.76,11.4,10.9,153.8,186.6,3.67,77,,,
+2026-11-24T13:19:31.709Z,d-twenty-to-five,D,D · Twenty to five,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1302,102.69,11.4,10.9,148.6,187,4.21,76,,,
+2026-11-24T13:21:20.815Z,d-twenty-to-five,D,D · Twenty to five,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,827443143,85.63,11.4,11,154,186.8,3.68,76,,,
+2026-11-24T13:22:52.880Z,d-five-headphones,D,D · Five pairs of headphones,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1303,103.62,11.4,11,149.1,186,4.27,76,,,
+2026-11-24T13:24:42.259Z,d-five-headphones,D,D · Five pairs of headphones,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1227757599,85.63,11.4,11,155.1,187.2,3.62,77,,,
+2026-11-24T13:26:14.224Z,d-mirror,D,D · At the mirror,1,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1304,102.98,11.4,10.9,148.8,186.9,4.26,77,,,
+2026-11-24T13:28:03.085Z,d-mirror,D,D · At the mirror,2,P-H3-Image,RTX 3060 12 GB,home,one,1,2048,2048,4.19,8,1719682137,85.62,11.4,10.9,153.8,186.8,3.67,77,,,
+2026-11-24T13:29:34.652Z,e-four-into-one,E,E · Four pictures into one,1,P-H3-Image,RTX 3060 12 GB,home,several,4,2048,2048,4.19,8,1504,426.99,11.5,12.7,157.4,185.6,18.63,78,,,
+2026-11-24T13:36:51.688Z,e-four-into-one,E,E · Four pictures into one,2,P-H3-Image,RTX 3060 12 GB,home,several,4,2048,2048,4.19,8,923533087,386.93,11.4,12.7,159.6,186.8,17.2,78,,,
+2026-11-24T13:50:29.358Z,c-size-16mp,C,"C · Size, 16 megapixels",1,P-H3-Image,RTX 3060 12 GB,home,words,0,4096,4096,16.78,8,1101,218.71,11.4,12.9,151.9,186.8,9.2,78,,,
+2026-11-24T13:54:16.888Z,c-size-16mp,C,"C · Size, 16 megapixels",2,P-H3-Image,RTX 3060 12 GB,home,words,0,4096,4096,16.78,8,1563279165,209.05,11.4,12.9,155.6,186.9,9.03,78,,,
+2026-11-24T14:05:28.244Z,g-poster-one-pass,G,G · Poster in one pass,1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,6,1701,126.86,11.4,20.3,165,185.3,5.87,79,,,
+2026-11-24T14:07:43.811Z,g-poster-one-pass,G,G · Poster in one pass,2,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,6,1751621858,82.81,11.4,20.3,180.6,185.4,4.16,79,,,
+2026-11-24T14:09:16.158Z,g-poster-one-pass,G,G · Poster in one pass,1,P-H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,8,1701,196.98,11.4,20.4,149.1,186.9,8.16,76,,,
+2026-11-24T14:12:41.818Z,g-poster-one-pass,G,G · Poster in one pass,2,P-H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,8,418636501,163.8,11.4,13,154.5,186.6,7,77,,,
+2026-11-24T14:22:05.907Z,g-poster-retitled,G,G · Poster retitled,1,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,1664,2496,4.15,6,1702,72.62,11.4,18.4,160.1,184.8,3.25,77,,,
+2026-11-24T14:23:23.914Z,g-poster-retitled,G,G · Poster retitled,2,MiniMax H3-Image,RTX 3060 12 GB,home,one,1,1664,2496,4.15,6,961498477,47.42,11.4,18.3,177.4,184.5,2.32,78,,,
+2026-11-24T14:24:20.538Z,g-poster-retitled,G,G · Poster retitled,1,P-H3-Image,RTX 3060 12 GB,home,one,1,1664,2496,4.15,8,1702,110.16,11.4,18.2,143,186.8,4.37,76,,,
+2026-11-24T14:26:18.162Z,g-poster-retitled,G,G · Poster retitled,2,P-H3-Image,RTX 3060 12 GB,home,one,1,1664,2496,4.15,8,1455897564,85.75,11.4,13,153.5,185.9,3.71,76,,,
+2026-11-24T14:36:14.524Z,poster1-two-faces,poster 1,Poster · Two faces behind the rain,1,P-H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,8,1801,186.95,11.4,13.8,149.4,187,7.76,76,,,
+2026-11-24T14:39:31.206Z,poster1-two-faces,poster 1,Poster · Two faces behind the rain,2,P-H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,8,1645514503,161.37,11.4,13.8,153.2,185.8,6.85,76,,,
+2026-11-24T14:42:21.607Z,poster1-two-faces-from-retitle,poster 1,"Poster · Two faces, from the picked retitle",1,P-H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,8,1801,186.78,11.4,15.1,150.8,187,7.83,77,,,
+2026-11-24T14:45:39.068Z,poster1-two-faces-from-retitle,poster 1,"Poster · Two faces, from the picked retitle",2,P-H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,8,1423282642,161.78,11.4,17.5,153.5,187,6.91,77,,,
+2026-11-24T14:48:36.638Z,poster1-two-faces,poster 1,Poster · Two faces behind the rain,1,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,6,1801,119.14,11.4,20.8,167.6,186.1,5.5,79,,,
+2026-11-24T14:50:49.311Z,poster1-two-faces,poster 1,Poster · Two faces behind the rain,2,MiniMax H3-Image,RTX 3060 12 GB,home,several,2,1664,2496,4.15,6,1869923389,79.8,11.4,21.3,180,185.5,3.95,80,,,
+2026-11-24T14:56:06.215Z,poster1-print-size,poster 1,"Poster · Two faces, print size",1,P-H3-Image,L4,colab,one,1,2368,3552,8.41,8,1901,175.6,21.8,,,,,,0.0946,0.0112,True
+2026-11-24T14:56:06.218Z,poster1-print-size,poster 1,"Poster · Two faces, print size",2,P-H3-Image,L4,colab,one,1,2368,3552,8.41,8,1787130760,90.1,21.8,,,,,,0.0486,0.0057,True
+2026-11-24T14:56:06.226Z,poster1-print-size,poster 1,"Poster · Two faces, print size",1,MiniMax H3-Image,L4,colab,one,1,2368,3552,8.41,6,1901,157.4,21.8,,,,,,0.0848,0.01,True
+2026-11-24T14:56:06.230Z,poster1-print-size,poster 1,"Poster · Two faces, print size",2,MiniMax H3-Image,L4,colab,one,1,2368,3552,8.41,6,50323906,56.3,21.9,,,,,,0.0303,0.0036,True
+2026-11-24T15:01:31.813Z,poster2-1-layout,poster 2,Poster 2 · 1 Layout from text,1,MiniMax H3-Image,L4,colab,words,0,1664,2496,4.15,6,2101,130,21.8,,,,,,0.0701,0.0083,True
+2026-11-24T15:01:31.815Z,poster2-1-layout,poster 2,Poster 2 · 1 Layout from text,2,MiniMax H3-Image,L4,colab,words,0,1664,2496,4.15,6,1871879733,16.4,21.8,,,,,,0.0088,0.001,True
+2026-11-24T15:01:31.822Z,poster3-1-style-headline,poster 3,Poster 3 · 1 Style and headline from text,1,MiniMax H3-Image,L4,colab,words,0,1664,2496,4.15,6,3101,20.1,22,,,,,,0.0108,0.0013,True
+2026-11-24T15:01:31.825Z,poster3-1-style-headline,poster 3,Poster 3 · 1 Style and headline from text,2,MiniMax H3-Image,L4,colab,words,0,1664,2496,4.15,6,1831702243,16.2,21.8,,,,,,0.0087,0.001,True
+2026-11-24T15:01:31.833Z,poster2-1-layout,poster 2,Poster 2 · 1 Layout from text,1,P-H3-Image,L4,colab,words,0,1664,2496,4.15,8,2101,130,21.8,,,,,,0.0701,0.0083,True
+2026-11-24T15:01:31.837Z,poster2-1-layout,poster 2,Poster 2 · 1 Layout from text,2,P-H3-Image,L4,colab,words,0,1664,2496,4.15,8,263842273,23.2,21.8,,,,,,0.0125,0.0015,True
+2026-11-24T15:01:31.847Z,poster3-1-style-headline,poster 3,Poster 3 · 1 Style and headline from text,1,P-H3-Image,L4,colab,words,0,1664,2496,4.15,8,3101,31.3,21.8,,,,,,0.0169,0.002,True
+2026-11-24T15:01:31.858Z,poster3-1-style-headline,poster 3,Poster 3 · 1 Style and headline from text,2,P-H3-Image,L4,colab,words,0,1664,2496,4.15,8,819435432,23.2,21.8,,,,,,0.0125,0.0015,True
+2026-11-24T15:17:32.405Z,poster2-2-her-in,poster 2,Poster 2 · 2 Her brought in,1,MiniMax H3-Image,L4,colab,several,3,1664,2496,4.15,6,2102,204.6,21.8,,,,,,0.1103,0.013,True
+2026-11-24T15:17:32.407Z,poster2-2-her-in,poster 2,Poster 2 · 2 Her brought in,2,MiniMax H3-Image,L4,colab,several,3,1664,2496,4.15,6,1091146756,92.6,21.7,,,,,,0.0499,0.0059,True
+2026-11-24T15:17:32.485Z,poster3-2-her-in,poster 3,Poster 3 · 2 Her brought in,1,MiniMax H3-Image,L4,colab,several,3,1664,2496,4.15,6,3102,140.3,21.8,,,,,,0.0756,0.0089,True
+2026-11-24T15:17:32.488Z,poster3-2-her-in,poster 3,Poster 3 · 2 Her brought in,2,MiniMax H3-Image,L4,colab,several,3,1664,2496,4.15,6,1506992659,93.2,21.7,,,,,,0.0502,0.0059,True
+2026-11-24T15:21:14.473Z,poster2-2-her-in,poster 2,Poster 2 · 2 Her brought in,1,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,2102,254.7,21.8,,,,,,0.1373,0.0162,True
+2026-11-24T15:21:14.475Z,poster2-2-her-in,poster 2,Poster 2 · 2 Her brought in,2,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,337893582,139,21.8,,,,,,0.0749,0.0088,True
+2026-11-24T15:21:14.557Z,poster3-2-her-in,poster 3,Poster 3 · 2 Her brought in,1,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,3102,167.2,21.9,,,,,,0.0901,0.0106,True
+2026-11-24T15:21:14.559Z,poster3-2-her-in,poster 3,Poster 3 · 2 Her brought in,2,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,1181348714,139.6,21.7,,,,,,0.0752,0.0089,True
+2026-11-24T15:27:13.212Z,poster2-3-card-in,poster 2,Poster 2 · 3 The card brought in,1,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,2103,189.8,21.8,,,,,,0.1023,0.0121,True
+2026-11-24T15:27:13.215Z,poster2-3-card-in,poster 2,Poster 2 · 3 The card brought in,2,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,881095255,190.9,21.8,,,,,,0.1029,0.0121,True
+2026-11-24T15:29:56.979Z,poster3-3-card-drawing,poster 3,Poster 3 · 3 The card as a product drawing,1,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,3103,88.3,21.8,,,,,,0.0476,0.0056,True
+2026-11-24T15:29:56.981Z,poster3-3-card-drawing,poster 3,Poster 3 · 3 The card as a product drawing,2,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,667586457,59.2,21.8,,,,,,0.0319,0.0038,True
+2026-11-24T15:59:56.703Z,poster2-2-her-in-try-2,poster 2,"Poster 2 · 2 Her brought in, second try",1,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,2102,257.8,21.8,,,,,,0.1389,0.0164,True
+2026-11-24T15:59:56.705Z,poster2-2-her-in-try-2,poster 2,"Poster 2 · 2 Her brought in, second try",2,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,1711709227,141.3,21.8,,,,,,0.0761,0.009,True
+2026-11-24T16:05:32.845Z,poster3-2-her-in-try-2,poster 3,"Poster 3 · 2 Her brought in, second try",1,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,3102,168.5,21.8,,,,,,0.0908,0.0107,True
+2026-11-24T16:05:32.847Z,poster3-2-her-in-try-2,poster 3,"Poster 3 · 2 Her brought in, second try",2,P-H3-Image,L4,colab,several,3,1664,2496,4.15,8,1439944063,141.7,21.7,,,,,,0.0764,0.009,True
+2026-11-24T16:22:41.996Z,poster2-4-title,poster 2,Poster 2 · 4 Title and second line,1,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,2104,171.6,21.8,,,,,,0.1111,0.0131,True
+2026-11-24T16:22:41.998Z,poster2-4-title,poster 2,Poster 2 · 4 Title and second line,2,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,189862967,36.3,22,,,,,,0.0235,0.0028,True
+2026-11-24T16:22:55.843Z,poster3-4-small-print,poster 3,"Poster 3 · 4 Sub-head, slogan and small print",1,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,3104,54.2,21.8,,,,,,0.0351,0.0041,True
+2026-11-24T16:22:55.845Z,poster3-4-small-print,poster 3,"Poster 3 · 4 Sub-head, slogan and small print",2,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,1104328544,36.5,22,,,,,,0.0236,0.0028,True
+2026-11-24T16:28:54.539Z,poster2-2-her-in-try-3,poster 2,"Poster 2 · 2 Her brought in, third try",1,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,2102,211.6,21.8,,,,,,0.137,0.0161,True
+2026-11-24T16:28:54.542Z,poster2-2-her-in-try-3,poster 2,"Poster 2 · 2 Her brought in, third try",2,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,42274269,92.9,22,,,,,,0.0601,0.0071,True
+2026-11-24T16:32:35.037Z,poster3-2-her-in-try-3,poster 3,"Poster 3 · 2 Her brought in, third try",1,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,3102,112.7,21.8,,,,,,0.0729,0.0086,True
+2026-11-24T16:32:35.039Z,poster3-2-her-in-try-3,poster 3,"Poster 3 · 2 Her brought in, third try",2,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,1259054069,92.9,21.7,,,,,,0.0601,0.0071,True
+2026-11-24T16:46:56.343Z,poster2-5-badge,poster 2,Poster 2 · 5 Badge and mark,1,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,2105,149.5,21.8,,,,,,0.0968,0.0114,True
+2026-11-24T16:46:56.347Z,poster2-5-badge,poster 2,Poster 2 · 5 Badge and mark,2,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,2067262937,36.3,22,,,,,,0.0235,0.0028,True
+2026-11-24T16:47:39.377Z,poster3-5-paragraph,poster 3,Poster 3 · 5 The paragraph,1,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,3105,54.4,21.8,,,,,,0.0352,0.0042,True
+2026-11-24T16:47:39.379Z,poster3-5-paragraph,poster 3,Poster 3 · 5 The paragraph,2,MiniMax H3-Image,L4,colab,one,1,1664,2496,4.15,6,1552877902,36.5,22,,,,,,0.0236,0.0028,True
+2026-11-24T16:51:59.588Z,poster2-12-layout-with-her,poster 2,"Poster 2 · 1 and 2 as one, layout with her from words and her pictures",1,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,2106,207.7,21.8,,,,,,0.1344,0.0158,True
+2026-11-24T16:51:59.590Z,poster2-12-layout-with-her,poster 2,"Poster 2 · 1 and 2 as one, layout with her from words and her pictures",2,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,533297394,93.1,22,,,,,,0.0603,0.0071,True
+2026-11-24T16:51:59.665Z,poster3-12-style-with-her,poster 3,"Poster 3 · 1 and 2 as one, style, headline and her from words and her pictures",1,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,3106,113.1,22,,,,,,0.0732,0.0086,True
+2026-11-24T16:51:59.667Z,poster3-12-style-with-her,poster 3,"Poster 3 · 1 and 2 as one, style, headline and her from words and her pictures",2,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,1681795164,93.2,21.7,,,,,,0.0603,0.0071,True
+2026-11-24T16:59:47.093Z,poster2-6-fix,poster 2,"Poster 2 · 6 Fix, the photograph cleaned and her face from her picture",1,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,2106,171.6,21.8,,,,,,0.1111,0.0131,True
+2026-11-24T16:59:47.095Z,poster2-6-fix,poster 2,"Poster 2 · 6 Fix, the photograph cleaned and her face from her picture",2,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,513317376,60.1,21.8,,,,,,0.0389,0.0046,True
+2026-11-24T17:01:19.748Z,poster3-6-fix,poster 3,"Poster 3 · 6 Fix, the page printed cleanly and her face from her picture",1,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,3106,89.2,21.8,,,,,,0.0577,0.0068,True
+2026-11-24T17:01:19.751Z,poster3-6-fix,poster 3,"Poster 3 · 6 Fix, the page printed cleanly and her face from her picture",2,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,911014696,61.1,21.8,,,,,,0.0395,0.0047,True
+2026-11-24T17:06:00.462Z,poster2-3-card-in,poster 2,Poster 2 · 3 The card brought in,1,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,2103,206.2,21.8,,,,,,0.1335,0.0157,True
+2026-11-24T17:06:00.466Z,poster2-3-card-in,poster 2,Poster 2 · 3 The card brought in,2,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,1120616845,93.1,21.8,,,,,,0.0603,0.0071,True
+2026-11-24T17:09:42.096Z,poster3-3-card-drawing,poster 3,Poster 3 · 3 The card as a product drawing,1,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,3103,111.6,21.8,,,,,,0.0722,0.0085,True
+2026-11-24T17:09:42.098Z,poster3-3-card-drawing,poster 3,Poster 3 · 3 The card as a product drawing,2,P-H3-Image,L4,colab,several,2,1664,2496,4.15,8,1495441472,93,21.7,,,,,,0.0602,0.0071,True
+2026-11-24T17:20:32.947Z,poster2-4-title,poster 2,Poster 2 · 4 Title and second line,1,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,2104,68.4,21.8,,,,,,0.0443,0.0052,True
+2026-11-24T17:20:32.949Z,poster2-4-title,poster 2,Poster 2 · 4 Title and second line,2,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,1720801352,53.5,21.7,,,,,,0.0346,0.0041,True
+2026-11-24T17:24:09.138Z,poster3-4-small-print,poster 3,"Poster 3 · 4 Sub-head, slogan and small print",1,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,3104,66.3,21.9,,,,,,0.0429,0.0051,True
+2026-11-24T17:24:09.140Z,poster3-4-small-print,poster 3,"Poster 3 · 4 Sub-head, slogan and small print",2,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,1414557635,52.8,21.7,,,,,,0.0342,0.004,True
+2026-11-24T17:26:04.192Z,poster2-5-badge,poster 2,Poster 2 · 5 Badge and mark,1,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,2105,66.6,21.9,,,,,,0.0431,0.0051,True
+2026-11-24T17:26:04.193Z,poster2-5-badge,poster 2,Poster 2 · 5 Badge and mark,2,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,237263851,53.5,21.7,,,,,,0.0346,0.0041,True
+2026-11-24T17:28:40.847Z,poster3-5-paragraph,poster 3,Poster 3 · 5 The paragraph,1,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,3105,68.6,21.8,,,,,,0.0444,0.0052,True
+2026-11-24T17:28:40.849Z,poster3-5-paragraph,poster 3,Poster 3 · 5 The paragraph,2,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,1578260695,53.5,21.7,,,,,,0.0346,0.0041,True
+2026-11-24T17:32:13.827Z,poster2-short-route,poster 2,"Poster 2 · Short route, card and all lettering in one edit",1,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,2107,172.7,21.8,,,,,,0.1118,0.0132,True
+2026-11-24T17:32:13.830Z,poster2-short-route,poster 2,"Poster 2 · Short route, card and all lettering in one edit",2,MiniMax H3-Image,L4,colab,several,2,1664,2496,4.15,6,1845740934,60.4,21.8,,,,,,0.0391,0.0046,True
+2026-11-24T17:32:39.463Z,poster3-6-fix,poster 3,"Poster 3 · 6 Fix, the card's shroud black and the small print clean",1,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,3106,168.1,21.8,,,,,,0.1088,0.0128,True
+2026-11-24T17:32:39.465Z,poster3-6-fix,poster 3,"Poster 3 · 6 Fix, the card's shroud black and the small print clean",2,P-H3-Image,L4,colab,one,1,1664,2496,4.15,8,1129692766,53.5,21.9,,,,,,0.0346,0.0041,True
+2026-11-24T18:49:40.727Z,c-size-4mp,C,"C · Size, 4 megapixels",1,P-H3-Image,L4,colab,words,0,2048,2048,4.19,8,1101,23.1,21.8,,,,,,0.015,0.0018,True
+2026-11-24T18:49:40.730Z,c-size-4mp,C,"C · Size, 4 megapixels",2,P-H3-Image,L4,colab,words,0,2048,2048,4.19,8,2127709675,22.1,21.8,,,,,,0.0143,0.0017,True
+2026-11-24T18:49:40.738Z,c-size-8mp,C,"C · Size, 8 megapixels",1,P-H3-Image,L4,colab,words,0,2912,2912,8.48,8,1101,105.3,21.8,,,,,,0.0682,0.008,True
+2026-11-24T18:49:40.742Z,c-size-8mp,C,"C · Size, 8 megapixels",2,P-H3-Image,L4,colab,words,0,2912,2912,8.48,8,1389460844,51.5,21.8,,,,,,0.0333,0.0039,True
+2026-11-24T18:49:40.746Z,b-navy-coat,B,B · A navy coat,1,P-H3-Image,L4,colab,one,1,2048,2048,4.19,8,1201,71.7,21.8,,,,,,0.0464,0.0055,True
+2026-11-24T18:49:40.748Z,b-navy-coat,B,B · A navy coat,2,P-H3-Image,L4,colab,one,1,2048,2048,4.19,8,1749170567,53.3,21.7,,,,,,0.0345,0.0041,True
+2026-11-24T18:49:40.752Z,d-three-fingers,D,D · Three fingers,1,P-H3-Image,L4,colab,one,1,2048,2048,4.19,8,1301,67.5,21.8,,,,,,0.0437,0.0052,True
+2026-11-24T18:49:40.754Z,d-three-fingers,D,D · Three fingers,2,P-H3-Image,L4,colab,one,1,2048,2048,4.19,8,1150273019,53.2,21.7,,,,,,0.0344,0.0041,True
+2026-11-24T18:49:40.759Z,a-at-work,A,"A · At work, low bun and amber jacket",1,P-H3-Image,L4,colab,several,2,2048,2048,4.19,8,42,112.4,21.8,,,,,,0.0727,0.0086,True
+2026-11-24T18:49:40.761Z,a-at-work,A,"A · At work, low bun and amber jacket",2,P-H3-Image,L4,colab,several,2,2048,2048,4.19,8,872601905,93,21.7,,,,,,0.0602,0.0071,True
+2026-11-24T19:21:01.275Z,,character,"Elena · realistic · H3-Image, portrait",1,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,2101,163.8,21.8,,,,,,0.106,0.0125,True
+2026-11-24T19:21:01.279Z,,character,"Elena · realistic · H3-Image, portrait",2,MiniMax H3-Image,L4,colab,one,1,2048,2048,4.19,6,108500477,34.5,21.9,,,,,,0.0223,0.0026,True
+2026-11-24T19:21:01.287Z,,character,"Elena · realistic · P-H3-Image, portrait",1,P-H3-Image,L4,colab,one,1,2048,2048,4.19,8,2101,174.2,21.8,,,,,,0.1127,0.0133,True
+2026-11-24T19:21:01.291Z,,character,"Elena · realistic · P-H3-Image, portrait",2,P-H3-Image,L4,colab,one,1,2048,2048,4.19,8,1618331351,55.7,21.9,,,,,,0.0361,0.0043,True
+2026-11-25T02:03:28.321Z,c-size-1mp,C,"C · Size, 1 megapixel",3,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,1101,23.32,11.4,13.1,80.7,186.8,0.54,64,,,
+2026-11-25T02:14:29.491Z,c-size-1mp,C,"C · Size, 1 megapixel",4,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,1101,19.88,11.4,13.2,87.4,186.6,0.49,65,,,
+2026-11-25T02:29:30.201Z,c-size-1mp,C,"C · Size, 1 megapixel",5,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,1101,22.27,11.4,13,91,186.6,0.58,72,,,
+2026-11-25T10:37:08.362Z,warm-take-1,warm take,"Warm take, for the video",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,1124784581,23.6,11.4,13.1,77.9,186.6,0.48,64,,,
+2026-11-25T10:38:01.878Z,warm-take-1,warm take,"Warm take, for the video",2,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,649816842,6,11.4,13.1,140.7,186.7,0.23,66,,,
+2026-11-25T10:39:58.251Z,warm-take-2,warm take,"Warm take, for the video, second try",1,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,225023525,19.67,11.5,13.3,83,186.6,0.44,66,,,
+2026-11-25T10:40:37.772Z,warm-take-2,warm take,"Warm take, for the video, second try",2,MiniMax H3-Image,RTX 3060 12 GB,home,words,0,1024,1024,1.05,6,1809516434,5.99,11.4,13.3,148.2,186.7,0.25,64,,,

@@ -1,0 +1,69 @@
+{
+ "about": "The two models as episode 1 ran them: ComfyUI's own nodes, the makers' 4-bit files at the revisions below, and how run_takes.py fills in each workflow.",
+ "comfyui": {
+  "repo": "https://github.com/Comfy-Org/ComfyUI",
+  "commit": "995456d0188ffb51032c28f41527cfa82d87d8a9"
+ },
+ "models": {
+  "h3-image": {
+   "name": "MiniMax H3-Image",
+   "maker": "MiniMax",
+   "page": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "steps": 6,
+   "workflows": {"words": "workflows/h3-image-words.json", "pictures": "workflows/h3-image-pictures.json"},
+   "wire": {
+    "prompt": "5.prompt",
+    "width": "5.width",
+    "height": "5.height",
+    "steps": "7.steps",
+    "seed": "7.seed",
+    "save": "9.filename_prefix",
+    "pictures": ["61.image", "62.image", "63.image", "64.image"]
+   },
+   "fewer": {
+    "1": {"unset": ["5.images.image_2", "5.images.image_3", "5.images.image_4"], "drop": ["62", "63", "64"]},
+    "2": {"unset": ["5.images.image_3", "5.images.image_4"], "drop": ["63", "64"]},
+    "3": {"unset": ["5.images.image_4"], "drop": ["64"]}
+   },
+   "files": [
+    {"repo": "Comfy-Org/MiniMax-H3-Image", "revision": "a70325ac34ca5c0c83df578bb5e02237460c1d8d", "file": "diffusion_models/minimax_h3_image_pruned_w4a8.safetensors", "bytes": 12549794530, "sha256": "517cc19b85348386f4df7c806dce80d839d0899e7cdaa3e1dbb09de964381dbb"},
+    {"repo": "Comfy-Org/MiniMax-H3-Image", "revision": "a70325ac34ca5c0c83df578bb5e02237460c1d8d", "file": "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors", "bytes": 15687142551, "sha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6"},
+    {"repo": "Comfy-Org/MiniMax-H3-Image", "revision": "a70325ac34ca5c0c83df578bb5e02237460c1d8d", "file": "vae/minimax_h3_image_vae_fp16.safetensors", "bytes": 1168505312, "sha256": "d80e9c2e5cfc9844869961ff5a58c9a9e52182df6bfb30b26018dd7f348721af"}
+   ]
+  },
+  "p-h3-image": {
+   "name": "P-H3-Image",
+   "maker": "Pruna AI",
+   "page": "https://huggingface.co/PrunaAI/P-Image-OSS",
+   "steps": 8,
+   "workflows": {"words": "workflows/p-h3-image-words.json", "pictures": "workflows/p-h3-image-pictures.json"},
+   "wire": {
+    "prompt": "17.value",
+    "width": "26.width",
+    "height": "26.height",
+    "seed": "9.noise_seed",
+    "save": "12.filename_prefix",
+    "pictures": ["61.image", "62.image", "63.image", "64.image"]
+   },
+   "fewer": {
+    "1": {
+     "link": {"16.values.c": "40:0", "16.values.d": "40:0", "16.values.e": "40:0"},
+     "unset": ["21.images.image1", "21.images.image2", "21.images.image3", "26.images.image_2", "26.images.image_3", "26.images.image_4"],
+     "drop": ["62", "42", "52", "63", "43", "53", "64", "44", "54"]
+    },
+    "2": {
+     "link": {"16.values.d": "40:0", "16.values.e": "40:0"},
+     "unset": ["21.images.image2", "21.images.image3", "26.images.image_3", "26.images.image_4"],
+     "drop": ["63", "43", "53", "64", "44", "54"]
+    },
+    "3": {"link": {"16.values.e": "40:0"}, "unset": ["21.images.image3", "26.images.image_4"], "drop": ["64", "44", "54"]}
+   },
+   "files": [
+    {"repo": "PrunaAI/P-Image-OSS-Comfy", "revision": "177745a635feb2f0adf3db3693297cb63fea3dda", "file": "diffusion_models/p-h3-image_w4a8.safetensors", "bytes": 13362068864, "sha256": "12ea30d6fde736dd69ef16658ce9438823a06e351ac3fa335cc4a3ce6bb17a43"},
+    {"repo": "PrunaAI/P-Image-OSS-Comfy", "revision": "177745a635feb2f0adf3db3693297cb63fea3dda", "file": "text_encoders/p-h3-image_text_encoder_w4a8.safetensors", "bytes": 3575536021, "sha256": "d4ae62d48e1de846dd55fc975623434e9326df3449601c4e15bea8b3ccd67293"},
+    {"repo": "PrunaAI/P-Image-OSS-Comfy", "revision": "177745a635feb2f0adf3db3693297cb63fea3dda", "file": "text_encoders/p-h3-image_prompt_upsampler_w4a8.safetensors", "bytes": 6724096116, "sha256": "74b206c0e3133aa0d1983fd8658c1526a53863cdcca5184538388e927f4e989b"},
+    {"repo": "PrunaAI/P-Image-OSS-Comfy", "revision": "177745a635feb2f0adf3db3693297cb63fea3dda", "file": "vae/p-h3-image_vae_int8_convrot.safetensors", "bytes": 3146996440, "sha256": "583e0d43354b6b833aa9a0815a5fac831b1ef6d0c19a7eaa0616980a3dab5ffe"}
+   ]
+  }
+ }
+}

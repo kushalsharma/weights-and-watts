@@ -1,0 +1,583 @@
+{
+ "about": "The three posters, step by step, as each model was sent them. 'routes' is the order each model's poster was built in; 'also_tried' are steps that were run but did not carry on. Picture names work as in tests.json.",
+ "builds": {
+  "poster-1": {
+   "title": "The Echo of Lazarus: a one-sheet in one pass, then edits",
+   "routes": {
+    "h3-image": [
+     "g-poster-one-pass",
+     "g-poster-retitled",
+     "poster1-two-faces",
+     "poster1-print-size"
+    ],
+    "p-h3-image": [
+     "g-poster-one-pass",
+     "g-poster-retitled",
+     "poster1-two-faces",
+     "poster1-print-size"
+    ]
+   },
+   "also_tried": {
+    "p-h3-image": [
+     "poster1-two-faces-from-retitle"
+    ]
+   }
+  },
+  "poster-2": {
+   "title": "A title card for this episode, built in stages",
+   "routes": {
+    "h3-image": [
+     "e-object-card@h3-image",
+     "poster2-1-layout",
+     "poster2-2-her-in",
+     "poster2-3-card-in",
+     "poster2-4-title",
+     "poster2-5-badge",
+     "poster2-6-fix"
+    ],
+    "p-h3-image": [
+     "e-object-card@h3-image",
+     "poster2-12-layout-with-her",
+     "poster2-3-card-in",
+     "poster2-4-title",
+     "poster2-5-badge"
+    ]
+   },
+   "also_tried": {
+    "h3-image": [
+     "poster2-short-route"
+    ],
+    "p-h3-image": [
+     "poster2-1-layout",
+     "poster2-2-her-in",
+     "poster2-2-her-in-try-2",
+     "poster2-2-her-in-try-3"
+    ]
+   }
+  },
+  "poster-3": {
+   "title": "A 1960s-style advertisement for the RTX 3060, built in stages",
+   "routes": {
+    "h3-image": [
+     "e-object-card@h3-image",
+     "poster3-1-style-headline",
+     "poster3-2-her-in",
+     "poster3-3-card-drawing",
+     "poster3-4-small-print",
+     "poster3-5-paragraph",
+     "poster3-6-fix"
+    ],
+    "p-h3-image": [
+     "e-object-card@h3-image",
+     "poster3-12-style-with-her",
+     "poster3-3-card-drawing",
+     "poster3-4-small-print",
+     "poster3-5-paragraph",
+     "poster3-6-fix"
+    ]
+   },
+   "also_tried": {
+    "p-h3-image": [
+     "poster3-1-style-headline",
+     "poster3-2-her-in",
+     "poster3-2-her-in-try-2",
+     "poster3-2-her-in-try-3"
+    ]
+   }
+  }
+ },
+ "prompts": {
+  "poster1-two-faces": {
+   "test": "poster 1",
+   "title": "Poster 1: two faces in the sky",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 1801,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a film poster. The woman photographed in <Picture 2> is <Subject 1>; she is the woman standing in the poster. The target image is the same film poster as <Picture 1> with one addition. In the dark sky behind the rain, two very large faces of <Subject 1> appear, one on the left half of the poster and one on the right half, level with each other on either side of the object in the sky, each about half the height of the poster. The face on the left is turned a little to the left and the face on the right is turned a little to the right, as if one woman were looking two ways. Both faces are dim, blue-grey and soft, like shadows seen through heavy rain, and each fades smoothly into the black of the sky towards the outer edge of the poster and towards the bottom, as a gradient. The rain falls in front of them. Their features are exactly hers: her eyes, her eyebrows, her freckles and her lips. Everything else is preserved exactly as it is in <Picture 1>: the standing woman, her clothes, her headphones, the rooftop, the object in the sky, the colours, and every line of lettering, in the same typeface, size and place. The poster contains no other text.",
+     "pictures": [
+      "g-poster-one-pass@p-h3-image",
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a film poster. The woman in <Picture 2> is the woman standing in the poster. In the dark sky behind the rain, two very large faces of the woman from <Picture 2> appear, one on the left half of the poster and one on the right half, level with each other on either side of the object in the sky, each about half the height of the poster. The face on the left is turned a little to the left and the face on the right is turned a little to the right, as if one woman were looking two ways. Both faces are dim, blue-grey and soft, like shadows seen through heavy rain, and each fades smoothly into the black of the sky towards the outer edge of the poster and towards the bottom, as a gradient. The rain falls in front of them. Their features are exactly hers: her eyes, her eyebrows, her freckles and her lips. Keep everything else exactly as it is: the standing woman, her clothes, her headphones, the rooftop, the object in the sky, the colours, and every line of lettering, in the same typeface, size and place. There is no other text on the poster.",
+     "pictures": [
+      "g-poster-one-pass",
+      "face"
+     ]
+    }
+   }
+  },
+  "poster1-two-faces-from-retitle": {
+   "test": "poster 1",
+   "title": "Poster 1: two faces in the sky, on the retitled poster",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 1801,
+   "takes": 2,
+   "models": {
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a film poster. The woman in <Picture 2> is the woman standing in the poster. In the dark sky behind the rain, two very large faces of the woman from <Picture 2> appear, one on the left half of the poster and one on the right half, level with each other on either side of the object in the sky, each about half the height of the poster. The face on the left is turned a little to the left and the face on the right is turned a little to the right, as if one woman were looking two ways. Both faces are dim, blue-grey and soft, like shadows seen through heavy rain, and each fades smoothly into the black of the sky towards the outer edge of the poster and towards the bottom, as a gradient. The rain falls in front of them. Their features are exactly hers: her eyes, her eyebrows, her freckles and her lips. Keep everything else exactly as it is: the standing woman, her clothes, her headphones, the rooftop, the object in the sky, the colours, and every line of lettering, in the same typeface, size and place. There is no other text on the poster.",
+     "pictures": [
+      "g-poster-retitled",
+      "face"
+     ]
+    }
+   }
+  },
+  "poster1-print-size": {
+   "test": "poster 1",
+   "title": "Poster 1: print size",
+   "size": [
+    2368,
+    3552
+   ],
+   "seed": 1901,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The target image is the same film poster as <Picture 1>, rendered at higher resolution with finer detail in the faces, the rain, the fabric and the lettering. Everything is preserved exactly as it is in <Picture 1>: the composition, the standing woman, the two large faces in the sky, the colours, and every line of lettering, in the same typeface, size and place. The poster contains no other text.",
+     "pictures": [
+      "poster1-two-faces@p-h3-image"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>. Reproduce this film poster exactly, at higher resolution, with finer detail in the faces, the rain, the fabric and the lettering. Change nothing else: the same composition, the same woman, the same two large faces in the sky, the same colours, and the same lines of lettering in the same typefaces and places. There is no other text on the poster.",
+     "pictures": [
+      "poster1-two-faces"
+     ]
+    }
+   }
+  },
+  "poster2-1-layout": {
+   "test": "poster 2",
+   "title": "Poster 2, step 1: layout from text",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2101,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "A photographed poster for a technology video, in a tall 2:3 image, with no lettering yet. A woman with long wavy black hair, in a red dress with white polka dots, stands on the left half of the picture, seen from the waist up, facing the camera with a small confident smile and her arms folded. On the right half, at the height of her chest, a desktop computer graphics card with a black shroud and two cooling fans rests on top of a matte black pedestal, seen from the fan side at a slight angle, large and sharp, lit along its edges by a thin line of cool light. The background is a dark studio wall in deep navy, almost black, with a soft glow of light blue and violet behind her and behind the card. The top third of the picture is empty dark background, left clear for a title, and a narrow band along the bottom is empty too. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters, logos or numbers.",
+     "pictures": []
+    },
+    "p-h3-image": {
+     "prompt": "A photographed poster for a technology video, in a tall 2:3 image, with no lettering yet. A woman with long wavy black hair, in a red dress with white polka dots, stands on the left half of the picture, seen from the waist up, facing the camera with a small confident smile and her arms folded. On the right half, at the height of her chest, a desktop computer graphics card with a black shroud and two cooling fans rests on top of a matte black pedestal, seen from the fan side at a slight angle, large and sharp, lit along its edges by a thin line of cool light. The background is a dark studio wall in deep navy, almost black, with a soft glow of light blue and violet behind her and behind the card. The top third of the picture is empty dark background, left clear for a title, and a narrow band along the bottom is empty too. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text, lettering, logo or number anywhere in the picture.",
+     "pictures": []
+    }
+   }
+  },
+  "poster2-2-her-in": {
+   "test": "poster 2",
+   "title": "Poster 2, step 2: her brought in",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2102,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a poster. The woman photographed in <Picture 2> and <Picture 3> is <Subject 1>. <Picture 2> shows her face and <Picture 3> shows her body from the neck down from three sides. The target image is the same poster as <Picture 1> with one change: the woman standing in it is now <Subject 1>. <Subject 1> is preserved: her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress are exactly as they are in <Picture 2> and <Picture 3>. She stands in the same place, at the same size and in the same pose as the woman in <Picture 1>, with her arms folded and a small confident smile, appears once, and is lit by the light of the poster. Everything else is preserved exactly as it is in <Picture 1>: the graphics card, the pedestal, the background, the glow, the colours and the empty space at the top and bottom. It is a photograph of a real person, with natural colour and real skin, hair and fabric. The image contains no text, letters, logos or numbers.",
+     "pictures": [
+      "poster2-1-layout",
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a poster. Replace the woman standing in it with the woman from <Picture 2> and <Picture 3>. <Picture 2> shows her face and <Picture 3> shows her body from the neck down from three sides. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress exactly as they are in those two pictures. She stands in the same place, at the same size and in the same pose as the woman in <Picture 1>, with her arms folded and a small confident smile, appears once, and is lit by the light of the poster. Keep everything else exactly as it is: the graphics card, the pedestal, the background, the glow, the colours and the empty space at the top and bottom. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text, lettering, logo or number anywhere in the picture.",
+     "pictures": [
+      "poster2-1-layout",
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "poster2-2-her-in-try-2": {
+   "test": "poster 2",
+   "title": "Poster 2, step 2: her brought in, second try",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2102,
+   "takes": 2,
+   "models": {
+    "p-h3-image": {
+     "prompt": "A photographed poster for a technology video, tall 2:3, with the layout of <Picture 1>, showing the woman from <Picture 2> and <Picture 3> once, in place of the woman in <Picture 1>. <Picture 2> shows her face and <Picture 3> shows her body from the neck down from three sides. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress exactly as they are in <Picture 2> and <Picture 3>. She stands on the left, seen from the waist up, with her arms folded and a small confident smile, lit by the light of the poster. Keep the rest of <Picture 1> exactly as it is: the graphics card resting on the matte black pedestal on the right, the dark navy background, the soft blue and violet glow, and the empty dark space at the top. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text, lettering, logo or number anywhere in the picture.",
+     "pictures": [
+      "poster2-1-layout",
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "poster2-2-her-in-try-3": {
+   "test": "poster 2",
+   "title": "Poster 2, step 2: her brought in, third try",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2102,
+   "takes": 2,
+   "models": {
+    "p-h3-image": {
+     "prompt": "A photographed poster for a technology video, tall 2:3. It shows the woman from <Picture 1>, once, standing in the scene of <Picture 2> in place of the woman who stands there. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin and her long wavy black hair exactly as they are in <Picture 1>. She stands on the left, seen from the waist up, with her arms folded and a small confident smile, in a red dress with white polka dots, lit by the light of the scene. Everything around her is as in <Picture 2>: the graphics card resting on the matte black pedestal on the right, in the same place and at the same size, the dark navy background, the soft blue and violet glow, and the empty dark space at the top. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text, lettering, logo or number anywhere in the picture.",
+     "pictures": [
+      "face",
+      "poster2-1-layout"
+     ]
+    }
+   }
+  },
+  "poster2-12-layout-with-her": {
+   "test": "poster 2",
+   "title": "Poster 2, steps 1 and 2 as one: layout with her, from words and her pictures",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2106,
+   "takes": 2,
+   "models": {
+    "p-h3-image": {
+     "prompt": "A photographed poster for a technology video, in a tall 2:3 image, with no lettering yet, showing the woman from <Picture 1> and <Picture 2> once. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress exactly as they are in the pictures. She stands on the left half of the picture, seen from the waist up, facing the camera with a small confident smile and her arms folded. On the right half, at the height of her chest, a desktop computer graphics card with a black shroud and two cooling fans rests on top of a matte black pedestal, seen from the fan side at a slight angle, large and sharp, lit along its edges by a thin line of cool light. The background is a dark studio wall in deep navy, almost black, with a soft glow of light blue and violet behind her and behind the card. The top third of the picture is empty dark background, left clear for a title. It is a photograph of a real person, with natural colour and real skin, hair and fabric. There is no text, lettering, logo or number anywhere in the picture.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "poster2-3-card-in": {
+   "test": "poster 2",
+   "title": "Poster 2, step 3: the card brought in",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2103,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a poster. The graphics card in <Picture 2> is <Subject 1>. The target image is the same poster as <Picture 1> with one change: the graphics card on the pedestal is now <Subject 1>. <Subject 1> is preserved: its plain black shroud, its two black fans, its metal bracket and its gold connector look as they do in <Picture 2>. It rests on top of the pedestal in the same place and at the same size as the card in <Picture 1>, appears once, and is lit by the blue and violet light of the poster, not by the white studio of <Picture 2>. Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her hair, her dress, her folded arms, the pedestal, the background, the glow and the colours. The image contains no text, letters, logos or numbers.",
+     "pictures": [
+      "poster2-2-her-in",
+      "e-object-card"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a poster. Replace the graphics card on the pedestal with the graphics card from <Picture 2>. Keep that card's plain black shroud, its two black fans, its metal bracket and its gold connector as they are in <Picture 2>. It rests on top of the pedestal in the same place and at the same size as the card in <Picture 1>, appears once, and is lit by the blue and violet light of the poster, not by the white studio of <Picture 2>. Keep everything else exactly as it is: the woman, her face, her hair, her dress, her folded arms, the pedestal, the background, the glow and the colours. There is no text, lettering, logo or number anywhere in the picture.",
+     "pictures": [
+      "poster2-12-layout-with-her",
+      "e-object-card@h3-image"
+     ]
+    }
+   }
+  },
+  "poster2-4-title": {
+   "test": "poster 2",
+   "title": "Poster 2, step 4: title and second line",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2104,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The target image is the same poster as <Picture 1> with one addition: lettering in the empty dark space at the top, above the woman's head. The title is in very large bold condensed white capitals, centred, set on two rows: \"135 GB ON A\" above \"12 GB CARD\". Directly under the title, centred on one line, in smaller light-blue sans-serif letters: \"MiniMax H3-Image, tested\". Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her hair, her dress, her folded arms, the graphics card, the pedestal, the background, the glow and the colours. The image contains no other text.",
+     "pictures": [
+      "poster2-3-card-in"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a poster. Add lettering in the empty dark space at the top, above the woman's head. The title is in very large bold condensed white capitals, centred, set on two rows: \"135 GB ON A\" above \"12 GB CARD\". Directly under the title, centred on one line, in smaller light-blue sans-serif letters: \"MiniMax H3-Image, tested\". Keep everything else exactly as it is: the woman, her face, her hair, her dress, her folded arms, the graphics card, the pedestal, the background, the glow and the colours. There is no other text.",
+     "pictures": [
+      "poster2-3-card-in"
+     ]
+    }
+   }
+  },
+  "poster2-5-badge": {
+   "test": "poster 2",
+   "title": "Poster 2, step 5: badge and mark",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2105,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The target image is the same poster as <Picture 1> with two additions. On the front of the black pedestal, just under the graphics card, a small rounded-rectangle badge with a thin light-blue outline holds, in bold white capitals: \"RTX 3060\". In the lower right corner of the poster, on the pedestal, in small widely spaced white letters: \"Weights & Watts\". Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her hair, her dress, her folded arms, the graphics card, the pedestal, the background, the glow and the colours, and the two lines of lettering at the top, which still read \"135 GB ON A 12 GB CARD\" and \"MiniMax H3-Image, tested\" in the same typeface, size, colour and place. The image contains no other text.",
+     "pictures": [
+      "poster2-4-title"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a poster. Add two things. On the front of the black pedestal, just under the graphics card, a small rounded-rectangle badge with a thin light-blue outline holds, in bold white capitals: \"RTX 3060\". In the lower right corner of the poster, on the pedestal, in small widely spaced white letters: \"Weights & Watts\". Keep everything else exactly as it is: the woman, her face, her hair, her dress, her folded arms, the graphics card, the pedestal, the background, the glow and the colours, and the two lines of lettering at the top, \"135 GB ON A 12 GB CARD\" and \"MiniMax H3-Image, tested\", in the same typeface, size, colour and place. There is no other text.",
+     "pictures": [
+      "poster2-4-title"
+     ]
+    }
+   }
+  },
+  "poster2-6-fix": {
+   "test": "poster 2",
+   "title": "Poster 2, step 6: fix, the photograph cleaned and her face from her picture",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2106,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a poster. The woman photographed in <Picture 2> is <Subject 1>; she is the woman in the poster. The target image is the same poster as <Picture 1> with one repair: it is a clean, natural photograph again. <Subject 1>'s face and hair are rendered as they are in <Picture 2>, with soft real skin, fine freckles and fine strands of black hair, and her dress, her arms and the graphics card have smooth natural detail, with no over-sharpening, no hard outlines, no halos and no plastic shine. Her expression, her pose and the blue and violet light on her stay as they are in <Picture 1>. Everything else is preserved exactly as it is in <Picture 1>: the composition, the pedestal, the background, the glow, the colours, the badge, and the four pieces of lettering, which still read \"135 GB ON A 12 GB CARD\", \"MiniMax H3-Image, tested\", \"RTX 3060\" and \"Weights & Watts\" in the same typeface, size, colour and place. The image contains no other text.",
+     "pictures": [
+      "poster2-5-badge",
+      "face"
+     ]
+    }
+   }
+  },
+  "poster2-short-route": {
+   "test": "poster 2",
+   "title": "Poster 2, short route: the card and all the lettering in one edit",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 2107,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a poster. The graphics card in <Picture 2> is <Subject 1>. The target image is the same poster as <Picture 1> with these changes. The graphics card on the pedestal is now <Subject 1>: its plain black shroud, its two black fans, its metal bracket and its gold connector look as they do in <Picture 2>; it rests on top of the pedestal in the same place and at the same size as the card in <Picture 1>, appears once, and is lit by the blue and violet light of the poster. Lettering is added. In the empty dark space at the top, above the woman's head, the title is in very large bold condensed white capitals, centred, set on two rows: \"135 GB ON A\" above \"12 GB CARD\". Directly under the title, centred on one line, in smaller light-blue sans-serif letters: \"MiniMax H3-Image, tested\". On the front of the black pedestal, just under the graphics card, a small rounded-rectangle badge with a thin light-blue outline holds, in bold white capitals: \"RTX 3060\". In the lower right corner of the poster, on the pedestal, in small widely spaced white letters: \"Weights & Watts\". Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her soft natural skin, her hair, her dress, her folded arms, the pedestal, the background, the glow and the colours. It is a photograph of a real person. The image contains no other text.",
+     "pictures": [
+      "poster2-2-her-in",
+      "e-object-card"
+     ]
+    }
+   }
+  },
+  "poster3-1-style-headline": {
+   "test": "poster 3",
+   "title": "Poster 3, step 1: style and headline from text",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3101,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "A full-page colour advertisement from a 1960s magazine for a computer part, in a tall 2:3 image. It is printed by offset on cream paper in flat colours, mustard yellow, teal and tomato red, with slightly faded ink and a fine print grain. The upper two thirds of the page are a flat mustard yellow panel. On the left of this panel stands a cheerful woman with long dark hair in a red dress, photographed in colour in the manner of 1960s advertising and seen from the waist up; she smiles at the reader and holds out one open, empty hand, palm up, towards the right side of the panel, which is empty yellow, left clear for the product. Across the top of the yellow panel runs the headline in very large bold teal capitals in a 1960s sans-serif typeface, set on two rows: \"STILL DRAWING\" above \"IN 2026\". The lower third of the page is a plain cream panel with a thin teal rule along its top edge, empty, left clear for the advertisement's copy. The image contains no other text, letters, logos or numbers.",
+     "pictures": []
+    },
+    "p-h3-image": {
+     "prompt": "A full-page colour advertisement from a 1960s magazine for a computer part, in a tall 2:3 image. It is printed by offset on cream paper in flat colours, mustard yellow, teal and tomato red, with slightly faded ink and a fine print grain. The upper two thirds of the page are a flat mustard yellow panel. On the left of this panel stands a cheerful woman with long dark hair in a red dress, photographed in colour in the manner of 1960s advertising and seen from the waist up; she smiles at the reader and holds out one open, empty hand, palm up, towards the right side of the panel, which is empty yellow, left clear for the product. Across the top of the yellow panel runs the headline in very large bold teal capitals in a 1960s sans-serif typeface, set on two rows: \"STILL DRAWING\" above \"IN 2026\". The lower third of the page is a plain cream panel with a thin teal rule along its top edge, empty, left clear for the advertisement's copy. There is no other text.",
+     "pictures": []
+    }
+   }
+  },
+  "poster3-2-her-in": {
+   "test": "poster 3",
+   "title": "Poster 3, step 2: her brought in",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3102,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a 1960s magazine advertisement. The woman photographed in <Picture 2> and <Picture 3> is <Subject 1>. <Picture 2> shows her face and <Picture 3> shows her body from the neck down from three sides. The target image is the same advertisement as <Picture 1> with one change: the woman in it is now <Subject 1>. <Subject 1> is preserved: her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress are exactly as they are in <Picture 2> and <Picture 3>. She stands in the same place, at the same size and in the same pose as the woman in <Picture 1>, smiling at the reader with one open, empty hand held out, appears once, and is printed in the same 1960s colour and grain as the rest of the page. Everything else is preserved exactly as it is in <Picture 1>: the yellow panel, the empty space beside her, the cream panel at the bottom, the colours, and the headline, which still reads \"STILL DRAWING IN 2026\" in the same typeface, size, colour and place. The image contains no other text.",
+     "pictures": [
+      "poster3-1-style-headline",
+      "face",
+      "body"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a 1960s magazine advertisement. Replace the woman in it with the woman from <Picture 2> and <Picture 3>. <Picture 2> shows her face and <Picture 3> shows her body from the neck down from three sides. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress exactly as they are in those two pictures. She stands in the same place, at the same size and in the same pose as the woman in <Picture 1>, smiling at the reader with one open, empty hand held out, appears once, and is printed in the same 1960s colour and grain as the rest of the page. Keep everything else exactly as it is: the yellow panel, the empty space beside her, the cream panel at the bottom, the colours, and the headline \"STILL DRAWING IN 2026\" in the same typeface, size, colour and place. There is no other text.",
+     "pictures": [
+      "poster3-1-style-headline",
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "poster3-2-her-in-try-2": {
+   "test": "poster 3",
+   "title": "Poster 3, step 2: her brought in, second try",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3102,
+   "takes": 2,
+   "models": {
+    "p-h3-image": {
+     "prompt": "A full-page colour advertisement from a 1960s magazine, tall 2:3, with the layout of <Picture 1>, showing the woman from <Picture 2> and <Picture 3> once, in place of the woman in <Picture 1>. <Picture 2> shows her face and <Picture 3> shows her body from the neck down from three sides. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress exactly as they are in <Picture 2> and <Picture 3>. She stands on the left of the yellow panel, seen from the waist up, smiling at the reader and holding out one open, empty hand, palm up, towards the empty yellow space beside her, and she is printed in the same 1960s colour and grain as the rest of the page. Keep the rest of <Picture 1> exactly as it is: the flat mustard yellow panel, the empty cream panel with its teal border at the bottom, the colours, and the headline in very large bold teal capitals on two rows, \"STILL DRAWING\" above \"IN 2026\", in the same typeface, size and place. There is no other text.",
+     "pictures": [
+      "poster3-1-style-headline",
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "poster3-2-her-in-try-3": {
+   "test": "poster 3",
+   "title": "Poster 3, step 2: her brought in, third try",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3102,
+   "takes": 2,
+   "models": {
+    "p-h3-image": {
+     "prompt": "A full-page colour advertisement from a 1960s magazine, tall 2:3. It shows the woman from <Picture 1>, once, in the advertisement of <Picture 2>, in place of the woman who stands there. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin and her long wavy black hair exactly as they are in <Picture 1>. She stands on the left of the yellow panel, seen from the waist up, in a red dress with white polka dots and thin shoulder straps, smiling at the reader and holding out one open, empty hand, palm up, towards the empty yellow space beside her. She is printed in the same 1960s colour and grain as the rest of the page. Everything around her is as in <Picture 2>: the flat mustard yellow panel, the empty cream panel with its thin teal border at the bottom, the colours, and the headline in very large bold teal capitals on two rows, \"STILL DRAWING\" above \"IN 2026\", in the same typeface, size and place. There is no other text.",
+     "pictures": [
+      "face",
+      "poster3-1-style-headline"
+     ]
+    }
+   }
+  },
+  "poster3-12-style-with-her": {
+   "test": "poster 3",
+   "title": "Poster 3, steps 1 and 2 as one: style, headline and her, from words and her pictures",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3106,
+   "takes": 2,
+   "models": {
+    "p-h3-image": {
+     "prompt": "A full-page colour advertisement from a 1960s magazine for a computer part, in a tall 2:3 image, showing the woman from <Picture 1> and <Picture 2> once. <Picture 1> shows her face and <Picture 2> shows her body from the neck down from three sides. Keep her face, her dark eyes, her black eyebrows, her freckles, her red lips, her skin, her long wavy black hair, her build and her red polka-dot dress exactly as they are in the pictures. The advertisement is printed by offset on cream paper in flat colours, mustard yellow, teal and tomato red, with slightly faded ink and a fine print grain. The upper two thirds of the page are a flat mustard yellow panel. She stands on the left of this panel, photographed in colour in the manner of 1960s advertising and seen from the waist up; she smiles at the reader and holds out one open, empty hand, palm up, towards the right side of the panel, which is empty yellow, left clear for the product. Across the top of the yellow panel runs the headline in very large bold teal capitals in a 1960s sans-serif typeface, set on two rows: \"STILL DRAWING\" above \"IN 2026\". The lower third of the page is a plain cream panel with a thin teal rule along its top edge, empty, left clear for the advertisement's copy. There is no other text.",
+     "pictures": [
+      "face",
+      "body"
+     ]
+    }
+   }
+  },
+  "poster3-3-card-drawing": {
+   "test": "poster 3",
+   "title": "Poster 3, step 3: the card as a product drawing",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3103,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a 1960s magazine advertisement. The graphics card in <Picture 2> is <Subject 1>. The target image is the same advertisement as <Picture 1> with one addition. In the empty yellow space beside the woman, resting just above her open hand, is a large product drawing of <Subject 1>, made as a 1960s advertising illustration: clean black ink outlines and flat colour, in black, grey and gold, with no photographic shading. <Subject 1> is preserved: its shape, its black shroud, its two fans, its metal bracket and its gold connector are those of <Picture 2>. It is seen from the fan side, appears once, and is about as wide as the woman's shoulders. Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her hair, her dress, her pose and her open hand, the yellow panel, the cream panel at the bottom, the colours and the print grain, and the headline, which still reads \"STILL DRAWING IN 2026\" in the same typeface, size, colour and place. The image contains no other text.",
+     "pictures": [
+      "poster3-2-her-in",
+      "e-object-card"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a 1960s magazine advertisement. Add one thing: in the empty yellow space beside the woman, resting just above her open hand, a large product drawing of the graphics card from <Picture 2>, made as a 1960s advertising illustration: clean black ink outlines and flat colour, in black, grey and gold, with no photographic shading. Keep that card's shape, its black shroud, its two fans, its metal bracket and its gold connector as they are in <Picture 2>. It is seen from the fan side, appears once, and is about as wide as the woman's shoulders. Keep everything else exactly as it is: the woman, her face, her hair, her dress, her pose and her open hand, the yellow panel, the cream panel at the bottom, the colours and the print grain, and the headline \"STILL DRAWING IN 2026\" in the same typeface, size, colour and place. There is no other text.",
+     "pictures": [
+      "poster3-12-style-with-her",
+      "e-object-card@h3-image"
+     ]
+    }
+   }
+  },
+  "poster3-4-small-print": {
+   "test": "poster 3",
+   "title": "Poster 3, step 4: sub-head, slogan and small print",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3104,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The target image is the same 1960s magazine advertisement as <Picture 1> with three lines of lettering added in the empty cream panel at the bottom. At the top of the cream panel, on one line across its width, the sub-head in bold dark teal serif letters: \"Twelve gigabytes. Sixteen megapixels. One hundred seconds.\" Near the bottom of the cream panel, at the right, the slogan in tomato-red italic serif letters: \"The card you already own.\" Along the very bottom edge of the cream panel, centred, in small dark grey sans-serif letters: \"RTX 3060 · 12 GB · est. 2021\". The middle of the cream panel, between the sub-head and the slogan, stays empty. Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her hair, her dress, her pose and her open hand, the drawing of the graphics card, the yellow panel, the cream panel, the colours and the print grain, and the headline, which still reads \"STILL DRAWING IN 2026\" in the same typeface, size, colour and place. The image contains no other text.",
+     "pictures": [
+      "poster3-3-card-drawing"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a 1960s magazine advertisement. Add three lines of lettering in the empty cream panel at the bottom. At the top of the cream panel, on one line across its width, the sub-head in bold dark teal serif letters: \"Twelve gigabytes. Sixteen megapixels. One hundred seconds.\" Near the bottom of the cream panel, at the right, the slogan in tomato-red italic serif letters: \"The card you already own.\" Along the very bottom edge of the cream panel, centred, in small dark grey sans-serif letters: \"RTX 3060 · 12 GB · est. 2021\". The middle of the cream panel, between the sub-head and the slogan, stays empty. Keep everything else exactly as it is: the woman, her face, her hair, her dress, her pose and her open hand, the drawing of the graphics card, the yellow panel, the cream panel, the colours and the print grain, and the headline \"STILL DRAWING IN 2026\" in the same typeface, size, colour and place. There is no other text.",
+     "pictures": [
+      "poster3-3-card-drawing"
+     ]
+    }
+   }
+  },
+  "poster3-5-paragraph": {
+   "test": "poster 3",
+   "title": "Poster 3, step 5: the paragraph",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3105,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "The target image is the same 1960s magazine advertisement as <Picture 1> with one addition: a paragraph of body text in the empty middle of the cream panel, between the sub-head and the slogan, set in a small dark serif typeface as one block of five or six lines, aligned left, reading exactly: \"Built in 2021 for games, the RTX 3060 now makes pictures. Four megapixels in twenty seconds. Sixteen megapixels in one hundred seconds, on five watt-hours of electricity. The model is 135 gigabytes at full size. The card holds twelve. It runs.\" Everything else is preserved exactly as it is in <Picture 1>: the woman, her face, her hair, her dress, her pose and her open hand, the drawing of the graphics card, the yellow panel, the cream panel, the colours and the print grain, and the other four lines of lettering, which still read \"STILL DRAWING IN 2026\", \"Twelve gigabytes. Sixteen megapixels. One hundred seconds.\", \"The card you already own.\" and \"RTX 3060 · 12 GB · est. 2021\" in the same typefaces, sizes, colours and places. The image contains no other text.",
+     "pictures": [
+      "poster3-4-small-print"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a 1960s magazine advertisement. Add one thing: a paragraph of body text in the empty middle of the cream panel, between the sub-head and the slogan, set in a small dark serif typeface as one block of five or six lines, aligned left, reading exactly: \"Built in 2021 for games, the RTX 3060 now makes pictures. Four megapixels in twenty seconds. Sixteen megapixels in one hundred seconds, on five watt-hours of electricity. The model is 135 gigabytes at full size. The card holds twelve. It runs.\" Keep everything else exactly as it is: the woman, her face, her hair, her dress, her pose and her open hand, the drawing of the graphics card, the yellow panel, the cream panel, the colours and the print grain, and the other four lines of lettering, \"STILL DRAWING IN 2026\", \"Twelve gigabytes. Sixteen megapixels. One hundred seconds.\", \"The card you already own.\" and \"RTX 3060 · 12 GB · est. 2021\", in the same typefaces, sizes, colours and places. There is no other text.",
+     "pictures": [
+      "poster3-4-small-print"
+     ]
+    }
+   }
+  },
+  "poster3-6-fix": {
+   "test": "poster 3",
+   "title": "Poster 3, step 6: fix",
+   "size": [
+    1664,
+    2496
+   ],
+   "seed": 3106,
+   "takes": 2,
+   "models": {
+    "h3-image": {
+     "prompt": "<Picture 1> is a 1960s magazine advertisement. The woman photographed in <Picture 2> is <Subject 1>; she is the woman in the advertisement. The target image is the same advertisement as <Picture 1> with one repair: the page is printed cleanly again. The yellow panel is one flat, even mustard yellow with only a fine print grain, without blotches or orange patches. The headline is solid flat teal with clean edges, without glow, speckles or outlines. <Subject 1> is a period colour photograph with soft natural skin, and her face and hair are as they are in <Picture 2>, without hard outlines or over-sharpening. Her pose, her dress and her open hand stay as they are in <Picture 1>. Everything else is preserved exactly as it is in <Picture 1>: the composition, the drawing of the graphics card, the cream panel, and all the lettering, which still reads \"STILL DRAWING IN 2026\", \"Twelve gigabytes. Sixteen megapixels. One hundred seconds.\", the paragraph \"Built in 2021 for games, the RTX 3060 now makes pictures. Four megapixels in twenty seconds. Sixteen megapixels in one hundred seconds, on five watt-hours of electricity. The model is 135 gigabytes at full size. The card holds twelve. It runs.\", \"The card you already own.\" and \"RTX 3060 · 12 GB · est. 2021\", in the same typefaces, sizes, colours and places. The image contains no other text.",
+     "pictures": [
+      "poster3-5-paragraph",
+      "face"
+     ]
+    },
+    "p-h3-image": {
+     "prompt": "Edit <Picture 1>, a 1960s magazine advertisement. Repair two things. In the drawing of the graphics card, the shroud around the two fans is now flat black, as on the real card, with the fan blades in dark grey; the drawing keeps its clean ink outlines, its shape, its size and its place. The small line at the very bottom is set again cleanly, in the same small dark sans-serif letters and the same place, reading exactly: \"RTX 3060 · 12 GB · est. 2021\". Keep everything else exactly as it is: the woman, her face, her hair, her dress, her pose and her open hand, the yellow panel, the teal rule, the cream paper, the colours, and the other four pieces of lettering, \"STILL DRAWING IN 2026\", \"Twelve gigabytes. Sixteen megapixels. One hundred seconds.\", the paragraph \"Built in 2021 for games, the RTX 3060 now makes pictures. Four megapixels in twenty seconds. Sixteen megapixels in one hundred seconds, on five watt-hours of electricity. The model is 135 gigabytes at full size. The card holds twelve. It runs.\" and \"The card you already own.\", in the same typefaces, sizes, colours and places. There is no other text.",
+     "pictures": [
+      "poster3-5-paragraph"
+     ]
+    }
+   }
+  }
+ }
+}
