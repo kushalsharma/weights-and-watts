@@ -1,5 +1,7 @@
 # Episode 1: MiniMax H3-Image and P-H3-Image
 
+Watch the episode: https://www.youtube.com/watch?v=G6cXCfZ3cbY
+
 Everything here is what you need to run the episode's tests on your own card, or on a rented one in Colab, and to hold your numbers up against ours. Nothing in it differs from what the episode ran, down to the seeds. When we reran the 1-megapixel size test with this script on our RTX 3060, both models gave back the episode's pictures pixel for pixel.
 
 There are no pictures and no model weights in this folder. The script fetches the weights from the makers' own pages, and the pictures are the ones you make.
